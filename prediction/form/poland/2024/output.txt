@@ -1,0 +1,5184 @@
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\000_Cerrad Enea Czarni RadomvsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42124, 0.42124];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21656792
+Time Used:12.7609199s
+Estimated Memory Used:144086.4KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\001_LUK LublinvsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54713, 0.54713];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22364414
+Time Used:13.1336463s
+Estimated Memory Used:176532.448KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\002_Projekt WarszawavsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52447, 0.52447];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21603350
+Time Used:12.7553973s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\003_Ślepsk Malow SuwałkivsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48048, 0.48048];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20830878
+Time Used:12.2723177s
+Estimated Memory Used:179297.824KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\004_Jastrzębski WęgielvsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54748, 0.54748];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21312602
+Time Used:12.5784132s
+Estimated Memory Used:214638.656KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\005_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5112, 0.5112];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21291230
+Time Used:12.5245195s
+Estimated Memory Used:202317.376KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\006_PSG Stal NysavsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44468, 0.44468];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21269348
+Time Used:12.4969523s
+Estimated Memory Used:203596.432KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\007_Indykpol AZS OlsztynvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51407, 0.51407];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21367884
+Time Used:12.5386354s
+Estimated Memory Used:202967.456KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\008_Asseco Resovia RzeszówvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53532, 0.53532];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20843908
+Time Used:12.281584s
+Estimated Memory Used:179295.488KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\009_GKS KatowicevsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48304, 0.48304];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22051896
+Time Used:12.9295061s
+Estimated Memory Used:169183.68KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\010_LUK LublinvsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.57848, 0.57848];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22116906
+Time Used:12.9952677s
+Estimated Memory Used:170655.296KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\011_Cuprum LubinvsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52014, 0.52014];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22012932
+Time Used:12.9164689s
+Estimated Memory Used:169183.68KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\012_Cerrad Enea Czarni RadomvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41009, 0.41009];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21603082
+Time Used:12.7153179s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\013_Barkom Każany LwówvsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45067, 0.45067];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22105190
+Time Used:13.0198408s
+Estimated Memory Used:170331.424KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\014_Ślepsk Malow SuwałkivsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.60466, 0.60466];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21380680
+Time Used:12.6244091s
+Estimated Memory Used:214348.928KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\015_Aluron CMC Warta ZawiercievsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50874, 0.50874];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21608254
+Time Used:12.6414096s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\016_Jastrzębski WęgielvsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51273, 0.51273];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20349068
+Time Used:12.047081s
+Estimated Memory Used:157204.816KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\017_Indykpol AZS OlsztynvsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49536, 0.49536];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21540732
+Time Used:12.6945033s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\018_Cuprum LubinvsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47531, 0.47531];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22006018
+Time Used:12.7995356s
+Estimated Memory Used:159493.088KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\019_Asseco Resovia RzeszówvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54933, 0.54933];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20627906
+Time Used:12.2542292s
+Estimated Memory Used:172235.584KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\020_GKS KatowicevsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45929, 0.45929];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21588866
+Time Used:12.7227316s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\021_Trefl GdańskvsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52666, 0.52666];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21532342
+Time Used:12.6895828s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\022_Projekt WarszawavsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55948, 0.55948];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21632712
+Time Used:12.7398722s
+Estimated Memory Used:144080.896KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\023_PSG Stal NysavsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49205, 0.49205];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21363412
+Time Used:12.6070476s
+Estimated Memory Used:212657.136KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\024_Asseco Resovia RzeszówvsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53149, 0.53149];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20790144
+Time Used:12.2939385s
+Estimated Memory Used:179265.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\025_GKS KatowicevsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42547, 0.42547];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21323072
+Time Used:12.6027663s
+Estimated Memory Used:216503.808KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\026_Cerrad Enea Czarni RadomvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42425, 0.42425];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22002980
+Time Used:12.9368253s
+Estimated Memory Used:170393.248KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\027_Ślepsk Malow SuwałkivsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55243, 0.55243];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20851752
+Time Used:12.4140307s
+Estimated Memory Used:186150.976KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\028_Barkom Każany LwówvsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42496, 0.42496];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21630424
+Time Used:12.6926163s
+Estimated Memory Used:137517.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\029_PSG Stal NysavsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45775, 0.45775];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20389218
+Time Used:12.0855575s
+Estimated Memory Used:157206.272KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\030_LUK LublinvsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49578, 0.49578];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22108166
+Time Used:12.950929s
+Estimated Memory Used:170397.376KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\031_Projekt WarszawavsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51404, 0.51404];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22063226
+Time Used:12.9193275s
+Estimated Memory Used:170324.784KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\032_Trefl GdańskvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49106, 0.49106];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21381106
+Time Used:12.5673251s
+Estimated Memory Used:216164.56KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\033_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52886, 0.52886];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21559720
+Time Used:12.660455s
+Estimated Memory Used:139351.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\034_Asseco Resovia RzeszówvsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5341, 0.5341];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20848384
+Time Used:12.2341924s
+Estimated Memory Used:178726.56KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\035_LUK LublinvsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46989, 0.46989];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22066836
+Time Used:12.9886499s
+Estimated Memory Used:163762.176KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\036_Jastrzębski WęgielvsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.63349, 0.63349];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21336872
+Time Used:12.6132976s
+Estimated Memory Used:217163.392KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\037_Cuprum LubinvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46227, 0.46227];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21280752
+Time Used:12.5964114s
+Estimated Memory Used:212657.12KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\038_Cuprum LubinvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47759, 0.47759];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21296368
+Time Used:12.4462211s
+Estimated Memory Used:203462.016KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\039_Aluron CMC Warta ZawiercievsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54431, 0.54431];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22069660
+Time Used:12.8085752s
+Estimated Memory Used:157194.88KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\040_GKS KatowicevsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48139, 0.48139];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21377946
+Time Used:12.646128s
+Estimated Memory Used:214315.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\041_Cerrad Enea Czarni RadomvsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4069, 0.4069];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21567634
+Time Used:12.6325917s
+Estimated Memory Used:139890.08KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\042_Barkom Każany LwówvsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.39333, 0.39333];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21578950
+Time Used:12.7048219s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\043_Ślepsk Malow SuwałkivsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52437, 0.52437];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21596072
+Time Used:12.6017655s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\044_Aluron CMC Warta ZawiercievsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49824, 0.49824];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22064372
+Time Used:12.8123293s
+Estimated Memory Used:162899.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\045_Jastrzębski WęgielvsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58337, 0.58337];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20380102
+Time Used:12.1529818s
+Estimated Memory Used:159610.096KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\046_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56349, 0.56349];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21603110
+Time Used:12.704232s
+Estimated Memory Used:144147.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\047_PSG Stal NysavsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58084, 0.58084];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21364962
+Time Used:12.6295866s
+Estimated Memory Used:214963.52KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\048_Indykpol AZS OlsztynvsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52676, 0.52676];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21611388
+Time Used:12.6402905s
+Estimated Memory Used:139351.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\049_Cerrad Enea Czarni RadomvsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41329, 0.41329];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21631348
+Time Used:12.7242845s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\050_Barkom Każany LwówvsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44866, 0.44866];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21615214
+Time Used:12.7220306s
+Estimated Memory Used:144080.608KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\051_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54143, 0.54143];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20825234
+Time Used:12.3135829s
+Estimated Memory Used:183456.608KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\052_LUK LublinvsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43662, 0.43662];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21572112
+Time Used:12.6714477s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\053_Aluron CMC Warta ZawiercievsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49348, 0.49348];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21612336
+Time Used:12.7044009s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\054_Projekt WarszawavsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48401, 0.48401];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21336010
+Time Used:12.6368148s
+Estimated Memory Used:213455.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\055_Jastrzębski WęgielvsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55696, 0.55696];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21332310
+Time Used:12.509495s
+Estimated Memory Used:205839.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\056_Aluron CMC Warta ZawiercievsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48612, 0.48612];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21549984
+Time Used:12.6145772s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\057_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5177, 0.5177];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22019160
+Time Used:12.9795095s
+Estimated Memory Used:163831.504KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\058_PSG Stal NysavsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52772, 0.52772];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20854888
+Time Used:12.3717149s
+Estimated Memory Used:186146.224KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\059_Indykpol AZS OlsztynvsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55784, 0.55784];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22094128
+Time Used:12.9034342s
+Estimated Memory Used:163769.088KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\060_Asseco Resovia RzeszówvsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56107, 0.56107];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21290926
+Time Used:12.5812602s
+Estimated Memory Used:212657.12KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\061_Cerrad Enea Czarni RadomvsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.38033, 0.38033];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21320748
+Time Used:12.5523104s
+Estimated Memory Used:202540.432KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\062_Cuprum LubinvsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46386, 0.46386];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21499364
+Time Used:12.6074342s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\063_LUK LublinvsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49348, 0.49348];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21615946
+Time Used:12.7192761s
+Estimated Memory Used:144072.944KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\064_Trefl GdańskvsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48729, 0.48729];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21557426
+Time Used:12.6597342s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\065_Projekt WarszawavsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45225, 0.45225];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21277388
+Time Used:12.5250398s
+Estimated Memory Used:214738.656KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\066_Ślepsk Malow SuwałkivsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53016, 0.53016];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21334566
+Time Used:12.5732819s
+Estimated Memory Used:205454.016KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\067_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51786, 0.51786];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21288280
+Time Used:12.4809273s
+Estimated Memory Used:202967.488KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\068_Asseco Resovia RzeszówvsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.59273, 0.59273];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21550454
+Time Used:12.7490772s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\069_GKS KatowicevsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56533, 0.56533];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21651022
+Time Used:12.7285827s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\070_Cuprum LubinvsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43152, 0.43152];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20759238
+Time Used:12.2782502s
+Estimated Memory Used:179299.808KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\071_Ślepsk Malow SuwałkivsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51268, 0.51268];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21301442
+Time Used:12.6805371s
+Estimated Memory Used:213316.736KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\072_PSG Stal NysavsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47722, 0.47722];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21328636
+Time Used:12.5524673s
+Estimated Memory Used:201426.848KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\073_Jastrzębski WęgielvsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53232, 0.53232];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21288396
+Time Used:12.5368797s
+Estimated Memory Used:203780.96KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\074_Aluron CMC Warta ZawiercievsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43758, 0.43758];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21269510
+Time Used:12.4763226s
+Estimated Memory Used:203375.584KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\075_Projekt WarszawavsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50682, 0.50682];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21317082
+Time Used:12.6158211s
+Estimated Memory Used:212657.12KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\076_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50308, 0.50308];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21308850
+Time Used:12.5296621s
+Estimated Memory Used:201121.344KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\077_Trefl GdańskvsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4903, 0.4903];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21612838
+Time Used:12.7322481s
+Estimated Memory Used:144072.944KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\078_PSG Stal NysavsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50123, 0.50123];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21379104
+Time Used:12.6000797s
+Estimated Memory Used:213859.248KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\079_Indykpol AZS OlsztynvsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51337, 0.51337];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22095032
+Time Used:12.8176864s
+Estimated Memory Used:163698.976KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\080_Barkom Każany LwówvsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46566, 0.46566];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22115494
+Time Used:13.0171563s
+Estimated Memory Used:170653.12KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\081_Indykpol AZS OlsztynvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4991, 0.4991];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21355068
+Time Used:12.6125108s
+Estimated Memory Used:214250.464KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\082_PSG Stal NysavsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55134, 0.55134];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21628696
+Time Used:12.6884479s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\083_Cuprum LubinvsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45857, 0.45857];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20819994
+Time Used:12.2727062s
+Estimated Memory Used:176960KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\084_Aluron CMC Warta ZawiercievsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48593, 0.48593];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21587786
+Time Used:12.7333085s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\085_LUK LublinvsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5119, 0.5119];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22113304
+Time Used:12.9913638s
+Estimated Memory Used:170653.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\086_Projekt WarszawavsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46467, 0.46467];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20835006
+Time Used:12.3759532s
+Estimated Memory Used:185999.04KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\087_Asseco Resovia RzeszówvsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54978, 0.54978];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21557200
+Time Used:12.675236s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\088_Trefl GdańskvsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45708, 0.45708];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21278736
+Time Used:12.5712276s
+Estimated Memory Used:212267.392KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\089_Cuprum LubinvsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54903, 0.54903];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21341642
+Time Used:12.5665704s
+Estimated Memory Used:207277.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\090_Trefl GdańskvsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51696, 0.51696];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22057074
+Time Used:12.9826761s
+Estimated Memory Used:169183.68KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\091_GKS KatowicevsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51014, 0.51014];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21522022
+Time Used:12.7284886s
+Estimated Memory Used:144405.152KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\092_Jastrzębski WęgielvsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55532, 0.55532];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21061660
+Time Used:12.5009918s
+Estimated Memory Used:196505.728KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\093_Cerrad Enea Czarni RadomvsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42152, 0.42152];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22334156
+Time Used:13.0112099s
+Estimated Memory Used:177217.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\094_Aluron CMC Warta ZawiercievsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49207, 0.49207];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21514186
+Time Used:12.7084526s
+Estimated Memory Used:144146.752KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\095_Ślepsk Malow SuwałkivsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5161, 0.5161];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21571880
+Time Used:12.7171672s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\096_Cerrad Enea Czarni RadomvsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46759, 0.46759];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22113784
+Time Used:12.9998935s
+Estimated Memory Used:170655.264KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\097_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45488, 0.45488];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21232250
+Time Used:12.5720828s
+Estimated Memory Used:214605.76KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\098_Indykpol AZS OlsztynvsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58671, 0.58671];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21632240
+Time Used:12.7137825s
+Estimated Memory Used:139351.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\099_Barkom Każany LwówvsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47986, 0.47986];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21575690
+Time Used:12.7099353s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\100_Trefl GdańskvsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.57876, 0.57876];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21654526
+Time Used:12.7917361s
+Estimated Memory Used:144078.848KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\101_Barkom Każany LwówvsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45287, 0.45287];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22366738
+Time Used:13.0461905s
+Estimated Memory Used:182705.328KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\102_GKS KatowicevsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47553, 0.47553];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21595816
+Time Used:12.7255464s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\103_Trefl GdańskvsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54933, 0.54933];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22112592
+Time Used:12.9963913s
+Estimated Memory Used:170331.424KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\104_Asseco Resovia RzeszówvsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51952, 0.51952];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20818646
+Time Used:12.3574987s
+Estimated Memory Used:185943.168KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\105_Barkom Każany LwówvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44052, 0.44052];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21626432
+Time Used:12.6576693s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\106_Indykpol AZS OlsztynvsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45252, 0.45252];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21304124
+Time Used:12.4955558s
+Estimated Memory Used:204525.76KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\107_PSG Stal NysavsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4888, 0.4888];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21292542
+Time Used:12.6054484s
+Estimated Memory Used:212432.368KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\108_Cuprum LubinvsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47333, 0.47333];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21526984
+Time Used:12.6192259s
+Estimated Memory Used:241868.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\109_Indykpol AZS OlsztynvsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50795, 0.50795];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21361520
+Time Used:12.6719914s
+Estimated Memory Used:212657.136KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\110_Aluron CMC Warta ZawiercievsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45067, 0.45067];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20844824
+Time Used:12.2713422s
+Estimated Memory Used:176893.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\111_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50464, 0.50464];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21541480
+Time Used:12.7552858s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\112_Cerrad Enea Czarni RadomvsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.39534, 0.39534];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21608700
+Time Used:12.7021063s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\113_Projekt WarszawavsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58991, 0.58991];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21604248
+Time Used:12.72221s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\114_Asseco Resovia RzeszówvsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48727, 0.48727];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20564826
+Time Used:12.2291852s
+Estimated Memory Used:172703.296KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\115_LUK LublinvsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52469, 0.52469];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22003410
+Time Used:12.8643926s
+Estimated Memory Used:169578.4KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\116_Ślepsk Malow SuwałkivsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54071, 0.54071];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21598864
+Time Used:12.7078369s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\117_GKS KatowicevsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49126, 0.49126];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21610964
+Time Used:12.634301s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\118_Jastrzębski WęgielvsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.57453, 0.57453];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21333464
+Time Used:12.5950802s
+Estimated Memory Used:216503.808KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\119_Aluron CMC Warta ZawiercievsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.57575, 0.57575];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21789334
+Time Used:12.7025144s
+Estimated Memory Used:150703.136KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\120_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46851, 0.46851];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20789332
+Time Used:12.369869s
+Estimated Memory Used:185285.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\121_Ślepsk Malow SuwałkivsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.57504, 0.57504];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21634362
+Time Used:12.6820513s
+Estimated Memory Used:137517.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\122_LUK LublinvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48596, 0.48596];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21622886
+Time Used:12.679373s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\123_Trefl GdańskvsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50422, 0.50422];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22103272
+Time Used:12.9029993s
+Estimated Memory Used:163764.192KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\124_Projekt WarszawavsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53773, 0.53773];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20853964
+Time Used:12.4019749s
+Estimated Memory Used:185978.384KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\125_Cuprum LubinvsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44757, 0.44757];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21285880
+Time Used:12.5439583s
+Estimated Memory Used:205832.288KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\126_Barkom Każany LwówvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45569, 0.45569];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21628900
+Time Used:12.6229903s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\127_Cerrad Enea Czarni RadomvsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.36651, 0.36651];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21335396
+Time Used:12.6700495s
+Estimated Memory Used:217058.992KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\128_GKS KatowicevsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47114, 0.47114];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21560106
+Time Used:12.8208119s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\129_Asseco Resovia RzeszówvsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54225, 0.54225];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20612116
+Time Used:12.3246128s
+Estimated Memory Used:176892.72KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\130_Indykpol AZS OlsztynvsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4659, 0.4659];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20845994
+Time Used:12.4510145s
+Estimated Memory Used:186144.288KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\131_PSG Stal NysavsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51861, 0.51861];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21375840
+Time Used:12.6558142s
+Estimated Memory Used:206517.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\132_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5931, 0.5931];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21574322
+Time Used:12.7092986s
+Estimated Memory Used:139351.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\133_Jastrzębski WęgielvsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.60667, 0.60667];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21368156
+Time Used:12.5542125s
+Estimated Memory Used:203596.432KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\134_Aluron CMC Warta ZawiercievsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5224, 0.5224];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20860834
+Time Used:12.2895724s
+Estimated Memory Used:179378.88KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\135_Ślepsk Malow SuwałkivsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53011, 0.53011];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22065090
+Time Used:12.9618123s
+Estimated Memory Used:170326.08KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\136_Projekt WarszawavsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50894, 0.50894];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21601710
+Time Used:12.7417496s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\137_Trefl GdańskvsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47563, 0.47563];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21595526
+Time Used:12.7027922s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\138_LUK LublinvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50176, 0.50176];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22063370
+Time Used:12.9453071s
+Estimated Memory Used:169090.272KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\139_Cuprum LubinvsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41663, 0.41663];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21223866
+Time Used:12.5674082s
+Estimated Memory Used:213569.52KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\140_Barkom Każany LwówvsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43651, 0.43651];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22018714
+Time Used:12.8556535s
+Estimated Memory Used:163703.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\141_Cerrad Enea Czarni RadomvsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41916, 0.41916];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21583872
+Time Used:12.7518117s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\142_GKS KatowicevsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47324, 0.47324];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21615470
+Time Used:12.6912789s
+Estimated Memory Used:139351.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\143_Jastrzębski WęgielvsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56338, 0.56338];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21365378
+Time Used:12.5310097s
+Estimated Memory Used:203340.448KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\144_Trefl GdańskvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50652, 0.50652];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21387812
+Time Used:12.5238366s
+Estimated Memory Used:200732.72KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\145_Ślepsk Malow SuwałkivsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51599, 0.51599];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21340120
+Time Used:12.5249553s
+Estimated Memory Used:202613.344KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\146_Trefl GdańskvsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44304, 0.44304];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21320224
+Time Used:12.5148025s
+Estimated Memory Used:205670.208KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\147_Projekt WarszawavsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51388, 0.51388];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21543150
+Time Used:12.7547608s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\148_LUK LublinvsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4823, 0.4823];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22022886
+Time Used:12.9341287s
+Estimated Memory Used:166461.344KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\149_Cuprum LubinvsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47228, 0.47228];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20632786
+Time Used:12.2866721s
+Estimated Memory Used:173019.072KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\150_Barkom Każany LwówvsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44216, 0.44216];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22091086
+Time Used:12.9506455s
+Estimated Memory Used:170325.152KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\151_GKS KatowicevsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43893, 0.43893];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21290946
+Time Used:12.6139061s
+Estimated Memory Used:212657.12KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\152_Asseco Resovia RzeszówvsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.61967, 0.61967];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20893770
+Time Used:12.3886069s
+Estimated Memory Used:179588.384KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\153_Indykpol AZS OlsztynvsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53614, 0.53614];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21508878
+Time Used:12.7122649s
+Estimated Memory Used:144147.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\154_PSG Stal NysavsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50651, 0.50651];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21628550
+Time Used:12.7881795s
+Estimated Memory Used:144072.944KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\155_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51271, 0.51271];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21558962
+Time Used:12.6683234s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\156_Jastrzębski WęgielvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54775, 0.54775];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21277362
+Time Used:12.5824614s
+Estimated Memory Used:214738.656KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\157_Aluron CMC Warta ZawiercievsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46984, 0.46984];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21343552
+Time Used:12.5270143s
+Estimated Memory Used:205454KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\158_Ślepsk Malow SuwałkivsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46768, 0.46768];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21271852
+Time Used:12.4793131s
+Estimated Memory Used:203762.064KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\159_Projekt WarszawavsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49692, 0.49692];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21312382
+Time Used:12.4964683s
+Estimated Memory Used:201121.344KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\160_Trefl GdańskvsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49876, 0.49876];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21380638
+Time Used:12.5767883s
+Estimated Memory Used:203747.92KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\161_LUK LublinvsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48663, 0.48663];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22089974
+Time Used:12.8774246s
+Estimated Memory Used:163698.976KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\162_Barkom Każany LwówvsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.40727, 0.40727];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21551276
+Time Used:12.703063s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\163_Cerrad Enea Czarni RadomvsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43466, 0.43466];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21651374
+Time Used:12.7486378s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\164_GKS KatowicevsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53434, 0.53434];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22111422
+Time Used:13.0130538s
+Estimated Memory Used:170653.12KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\165_Asseco Resovia RzeszówvsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56848, 0.56848];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20760100
+Time Used:12.3244459s
+Estimated Memory Used:183451.44KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\166_Indykpol AZS OlsztynvsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5097, 0.5097];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22044124
+Time Used:12.8912881s
+Estimated Memory Used:164084.32KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\167_PSG Stal NysavsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49318, 0.49318];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21328358
+Time Used:12.6434453s
+Estimated Memory Used:212657.152KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\168_Grupa Azoty ZAKSA Kędzierzyn-KoźlevsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48732, 0.48732];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21299904
+Time Used:12.5876819s
+Estimated Memory Used:213316.736KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\169_Jastrzębski WęgielvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56242, 0.56242];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21266418
+Time Used:12.4365253s
+Estimated Memory Used:204136.112KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\170_Aluron CMC Warta ZawiercievsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48214, 0.48214];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21290950
+Time Used:12.5905076s
+Estimated Memory Used:213081.408KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\171_Ślepsk Malow SuwałkivsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52278, 0.52278];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21331752
+Time Used:12.5178857s
+Estimated Memory Used:201426.848KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\172_Projekt WarszawavsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5009, 0.5009];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21580400
+Time Used:12.7218168s
+Estimated Memory Used:144012.672KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\173_LUK LublinvsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45022, 0.45022];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21547642
+Time Used:12.6869984s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\174_Cuprum LubinvsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48986, 0.48986];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21530836
+Time Used:12.6243857s
+Estimated Memory Used:139351.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\175_Barkom Każany LwówvsCerrad Enea Czarni Radom.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53241, 0.53241];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22115022
+Time Used:12.8750261s
+Estimated Memory Used:164092.72KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\176_Cerrad Enea Czarni RadomvsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45097, 0.45097];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21562152
+Time Used:12.7122858s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\177_GKS KatowicevsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48809, 0.48809];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22116110
+Time Used:12.9882761s
+Estimated Memory Used:170649.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\178_Asseco Resovia RzeszówvsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54292, 0.54292];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21287118
+Time Used:12.5515734s
+Estimated Memory Used:212267.392KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\179_Indykpol AZS OlsztynvsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4839, 0.4839];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21357788
+Time Used:12.5257206s
+Estimated Memory Used:203340.448KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\180_PSG Stal NysavsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50793, 0.50793];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21518360
+Time Used:12.5796438s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\181_Jastrzębski WęgielvsGrupa Azoty ZAKSA Kędzierzyn-Koźle.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54512, 0.54512];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20828068
+Time Used:12.3138165s
+Estimated Memory Used:184449.824KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\182_Indykpol AZS OlsztynvsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45252, 0.45252];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21304124
+Time Used:12.4787817s
+Estimated Memory Used:203900.256KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\183_Jastrzębski WęgielvsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54748, 0.54748];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21312602
+Time Used:12.5047064s
+Estimated Memory Used:204525.76KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\184_PSG Stal NysavsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50793, 0.50793];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21518360
+Time Used:12.6241819s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\185_Aluron CMC Warta ZawiercievsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49207, 0.49207];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21514186
+Time Used:12.6119381s
+Estimated Memory Used:144146.752KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\186_LUK LublinvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48596, 0.48596];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21622886
+Time Used:12.693936s
+Estimated Memory Used:144147.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\187_Projekt WarszawavsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51404, 0.51404];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22063226
+Time Used:12.9446043s
+Estimated Memory Used:170324.784KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\188_Trefl GdańskvsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45708, 0.45708];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21278736
+Time Used:12.5824029s
+Estimated Memory Used:212267.456KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\189_Asseco Resovia RzeszówvsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54292, 0.54292];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21287118
+Time Used:12.5624534s
+Estimated Memory Used:202153.952KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\190_Asseco Resovia RzeszówvsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48727, 0.48727];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20564826
+Time Used:12.1840309s
+Estimated Memory Used:170397.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\191_Jastrzębski WęgielvsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51273, 0.51273];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20349068
+Time Used:12.2198188s
+Estimated Memory Used:163830.08KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\192_Projekt WarszawavsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51388, 0.51388];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21543150
+Time Used:12.7150976s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\193_Aluron CMC Warta ZawiercievsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48612, 0.48612];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21549984
+Time Used:12.6217184s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\194_GKS KatowicevsCuprum Lubin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51014, 0.51014];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21522022
+Time Used:12.6386056s
+Estimated Memory Used:139351.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\195_Cuprum LubinvsGKS Katowice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48986, 0.48986];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21530836
+Time Used:12.6299996s
+Estimated Memory Used:139351.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\196_Ślepsk Malow SuwałkivsBarkom Każany Lwów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.57504, 0.57504];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21634362
+Time Used:12.659532s
+Estimated Memory Used:137579.264KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\197_Barkom Każany LwówvsŚlepsk Malow Suwałki.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42496, 0.42496];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21630424
+Time Used:12.6244602s
+Estimated Memory Used:137517.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\198_Indykpol AZS OlsztynvsPSG Stal Nysa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50795, 0.50795];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21361520
+Time Used:12.546646s
+Estimated Memory Used:202540.448KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\199_PSG Stal NysavsIndykpol AZS Olsztyn.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49205, 0.49205];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21363412
+Time Used:12.4911522s
+Estimated Memory Used:202540.432KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\200_LUK LublinvsTrefl Gdańsk.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49578, 0.49578];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22108166
+Time Used:12.930017s
+Estimated Memory Used:163698.976KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\201_Trefl GdańskvsLUK Lublin.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50422, 0.50422];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22103272
+Time Used:12.9832393s
+Estimated Memory Used:170331.488KB
+
+
+***************************END*************************
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\202_Asseco Resovia RzeszówvsProjekt Warszawa.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53532, 0.53532];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20843908
+Time Used:12.3619597s
+Estimated Memory Used:186144.48KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\203_Projekt WarszawavsAsseco Resovia Rzeszów.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46467, 0.46467];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20835006
+Time Used:12.442773s
+Estimated Memory Used:178726.816KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\204_Aluron CMC Warta ZawiercievsJastrzębski Węgiel.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43758, 0.43758];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21269510
+Time Used:12.5647982s
+Estimated Memory Used:214215.936KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\205_Jastrzębski WęgielvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56242, 0.56242];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21266418
+Time Used:12.4553689s
+Estimated Memory Used:204136.112KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\206_Jastrzębski WęgielvsAluron CMC Warta Zawiercie.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56242, 0.56242];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21266418
+Time Used:12.474007s
+Estimated Memory Used:203394.464KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\output.txt
+**************************START************************
+**************************ERROR************************
+The process cannot access the file 'C:\Users\Jingyan\Desktop\fyp\prediction\form\poland\2024\output.txt' because it is being used by another process.
+***************************END*************************
+

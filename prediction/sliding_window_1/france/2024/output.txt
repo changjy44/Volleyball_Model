@@ -1,0 +1,4432 @@
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\000_plessis-robinsonvspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47756, 0.47756];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22112724
+Time Used:12.8975316s
+Estimated Memory Used:170204.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\001_setevstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5057, 0.5057];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21580554
+Time Used:12.5927449s
+Estimated Memory Used:144012.672KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\002_nicevstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42756, 0.42756];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:147508
+Total Transitions:237673
+MDP Iterations:20695344
+Time Used:11.739637s
+Estimated Memory Used:199649.856KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\003_nantes rezevsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54253, 0.54253];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22045150
+Time Used:12.8359384s
+Estimated Memory Used:163638KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\004_chaumontvsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.534, 0.534];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22823638
+Time Used:13.1602407s
+Estimated Memory Used:207908.72KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\005_narbonnevsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47649, 0.47649];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296443
+MDP Iterations:20523972
+Time Used:11.9215442s
+Estimated Memory Used:156990.752KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\006_montpelliervssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5041, 0.5041];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22083968
+Time Used:12.7843888s
+Estimated Memory Used:170655.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\007_parisvstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47333, 0.47333];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21541884
+Time Used:12.4871534s
+Estimated Memory Used:137316.768KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\008_chaumontvsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56606, 0.56606];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296443
+MDP Iterations:21416720
+Time Used:12.3688993s
+Estimated Memory Used:208972.048KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\009_st-nazairevsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52717, 0.52717];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23142200
+Time Used:13.1382532s
+Estimated Memory Used:212136.288KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\010_toulousevsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47991, 0.47991];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21457046
+Time Used:12.4202397s
+Estimated Memory Used:137453.312KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\011_tourcoingvspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50735, 0.50735];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22344824
+Time Used:12.8280484s
+Estimated Memory Used:176758.848KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\012_toursvsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48282, 0.48282];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22606888
+Time Used:13.0173544s
+Estimated Memory Used:196580.128KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\013_tourcoingvsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5385, 0.5385];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22064014
+Time Used:12.6518581s
+Estimated Memory Used:163633.088KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\014_poitiersvschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46118, 0.46118];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296887
+MDP Iterations:22115162
+Time Used:12.8759069s
+Estimated Memory Used:169474.032KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\015_setevsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53456, 0.53456];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22047590
+Time Used:12.754674s
+Estimated Memory Used:170266.304KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\016_nantes rezevsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56343, 0.56343];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22062558
+Time Used:12.7431633s
+Estimated Memory Used:170193.856KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\017_parisvstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46308, 0.46308];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21523560
+Time Used:12.5212406s
+Estimated Memory Used:144012.672KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\018_chaumontvsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.492, 0.492];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296887
+MDP Iterations:21816748
+Time Used:12.6529171s
+Estimated Memory Used:144005.984KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\019_montpelliervsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53042, 0.53042];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22634152
+Time Used:12.9534536s
+Estimated Memory Used:190047.296KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\020_nicevspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46705, 0.46705];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23353860
+Time Used:13.2999298s
+Estimated Memory Used:143946.784KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\021_plessis-robinsonvssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44559, 0.44559];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21246230
+Time Used:12.3737953s
+Estimated Memory Used:199918.208KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\022_toulousevstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54715, 0.54715];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22297828
+Time Used:12.7908375s
+Estimated Memory Used:175390.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\023_st-nazairevsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4873, 0.4873];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22136572
+Time Used:12.8756555s
+Estimated Memory Used:170655.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\024_toursvschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44948, 0.44948];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296887
+MDP Iterations:22126032
+Time Used:12.8118635s
+Estimated Memory Used:169083.36KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\025_plessis-robinsonvsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46293, 0.46293];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23042164
+Time Used:13.1820571s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\026_poitiersvstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47376, 0.47376];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22974766
+Time Used:13.0817516s
+Estimated Memory Used:209906.656KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\027_setevsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49017, 0.49017];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20849180
+Time Used:12.1984344s
+Estimated Memory Used:183774KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\028_nantes rezevsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56045, 0.56045];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22839876
+Time Used:13.1025718s
+Estimated Memory Used:203012.08KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\029_narbonnevstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4834, 0.4834];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22091766
+Time Used:12.7302408s
+Estimated Memory Used:163703.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\030_nicevschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42773, 0.42773];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296887
+MDP Iterations:23851410
+Time Used:13.6054707s
+Estimated Memory Used:172577.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\031_parisvstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49054, 0.49054];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22082202
+Time Used:12.8063245s
+Estimated Memory Used:170655.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\032_poitiersvssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49673, 0.49673];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21528072
+Time Used:12.5537033s
+Estimated Memory Used:144144.288KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\033_toulousevsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54161, 0.54161];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22539556
+Time Used:13.0189228s
+Estimated Memory Used:193107.904KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\034_st-nazairevstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50706, 0.50706];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22386290
+Time Used:12.7767339s
+Estimated Memory Used:176763.024KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\035_montpelliervsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54259, 0.54259];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22826580
+Time Used:13.0964647s
+Estimated Memory Used:207522.24KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\036_parisvsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41642, 0.41642];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21998738
+Time Used:12.6818503s
+Estimated Memory Used:157118.016KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\037_toursvspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49414, 0.49414];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22081064
+Time Used:12.7667187s
+Estimated Memory Used:168555.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\038_setevstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47422, 0.47422];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21947440
+Time Used:12.7901522s
+Estimated Memory Used:163557.024KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\039_narbonnevsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51535, 0.51535];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22085062
+Time Used:12.7932801s
+Estimated Memory Used:168922.592KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\040_montpelliervsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51849, 0.51849];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23822446
+Time Used:13.5528779s
+Estimated Memory Used:172157.472KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\041_tourcoingvsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53028, 0.53028];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23112622
+Time Used:13.3115214s
+Estimated Memory Used:137842.784KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\042_toulousevstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50513, 0.50513];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23391210
+Time Used:13.4003126s
+Estimated Memory Used:164092.704KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\043_plessis-robinsonvschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43428, 0.43428];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22081008
+Time Used:12.7697609s
+Estimated Memory Used:168181.168KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\044_poitiersvsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52437, 0.52437];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22119750
+Time Used:12.8894892s
+Estimated Memory Used:169480.944KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\045_st-nazairevsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50909, 0.50909];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22855002
+Time Used:13.2103791s
+Estimated Memory Used:205868.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\046_nicevsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46289, 0.46289];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23833018
+Time Used:13.4745018s
+Estimated Memory Used:163155.072KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\047_nantes rezevstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5571, 0.5571];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21574960
+Time Used:12.5796505s
+Estimated Memory Used:144012.672KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\048_st-nazairevstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45516, 0.45516];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23045036
+Time Used:13.3265896s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\049_setevsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47254, 0.47254];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20819612
+Time Used:12.1697605s
+Estimated Memory Used:182401.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\050_toursvsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49907, 0.49907];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22117694
+Time Used:12.7591253s
+Estimated Memory Used:163637.824KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\051_chaumontvstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51474, 0.51474];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22102872
+Time Used:12.8255016s
+Estimated Memory Used:168555.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\052_montpelliervspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5284, 0.5284];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22856262
+Time Used:13.084771s
+Estimated Memory Used:207002.208KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\053_nicevsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49519, 0.49519];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23848490
+Time Used:13.545212s
+Estimated Memory Used:170648.736KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\054_tourcoingvsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49549, 0.49549];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22061754
+Time Used:12.8066097s
+Estimated Memory Used:170262.144KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\055_narbonnevssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48787, 0.48787];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22058038
+Time Used:12.7502124s
+Estimated Memory Used:170390.88KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\056_toulousevsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50659, 0.50659];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22326460
+Time Used:12.9255206s
+Estimated Memory Used:183325.568KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\057_chaumontvsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56906, 0.56906];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22104456
+Time Used:12.8086169s
+Estimated Memory Used:170327.36KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\058_plessis-robinsonvstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48762, 0.48762];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21850312
+Time Used:12.6550613s
+Estimated Memory Used:157073.728KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\059_poitiersvsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46846, 0.46846];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23093332
+Time Used:13.2571134s
+Estimated Memory Used:218164.32KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\060_parisvsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50233, 0.50233];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22079994
+Time Used:12.786286s
+Estimated Memory Used:170200.64KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\061_toursvstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46393, 0.46393];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22339322
+Time Used:12.8828961s
+Estimated Memory Used:183325.6KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\062_narbonnevsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52025, 0.52025];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23628258
+Time Used:13.4836546s
+Estimated Memory Used:157523.872KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\063_st-nazairevssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51463, 0.51463];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22103530
+Time Used:12.8118765s
+Estimated Memory Used:168181.168KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\064_montpelliervschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48985, 0.48985];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22799462
+Time Used:13.0772001s
+Estimated Memory Used:207653.344KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\065_nantes rezevspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53412, 0.53412];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22542218
+Time Used:12.9900003s
+Estimated Memory Used:196447.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\066_montpelliervsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5617, 0.5617];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22147350
+Time Used:12.7883556s
+Estimated Memory Used:157071.504KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\067_plessis-robinsonvstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.451, 0.451];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22064960
+Time Used:12.7394441s
+Estimated Memory Used:168312.256KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\068_tourcoingvsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50336, 0.50336];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23052754
+Time Used:13.2275036s
+Estimated Memory Used:137453.312KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\069_setevschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44949, 0.44949];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22047186
+Time Used:12.6820846s
+Estimated Memory Used:159347.648KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\070_nicevstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46491, 0.46491];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23571630
+Time Used:13.4258403s
+Estimated Memory Used:159464.656KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\071_narbonnevsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43879, 0.43879];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22100044
+Time Used:12.8524191s
+Estimated Memory Used:170326.8KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\072_tourcoingvsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48598, 0.48598];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22362814
+Time Used:12.9274767s
+Estimated Memory Used:183118.56KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\073_poitiersvsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52902, 0.52902];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22632668
+Time Used:12.9214013s
+Estimated Memory Used:189883.584KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\074_chaumontvstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51821, 0.51821];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22068558
+Time Used:12.7388782s
+Estimated Memory Used:170200.64KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\075_nantes rezevsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56928, 0.56928];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21584556
+Time Used:12.5922598s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\076_toursvssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49886, 0.49886];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22037118
+Time Used:12.7073931s
+Estimated Memory Used:170266.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\077_parisvsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52768, 0.52768];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23579672
+Time Used:13.4253272s
+Estimated Memory Used:158735.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\078_narbonnevschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41985, 0.41985];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22788988
+Time Used:13.1688025s
+Estimated Memory Used:209700.576KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\079_setevsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45028, 0.45028];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22092556
+Time Used:12.656715s
+Estimated Memory Used:163169.6KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\080_toursvsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49485, 0.49485];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22078498
+Time Used:12.7846699s
+Estimated Memory Used:170655.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\081_toulousevspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52553, 0.52553];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22517750
+Time Used:12.9629828s
+Estimated Memory Used:195335.936KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\082_plessis-robinsonvstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44623, 0.44623];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22070148
+Time Used:12.6643379s
+Estimated Memory Used:159037.296KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\083_nicevsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4426, 0.4426];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23604968
+Time Used:13.4769207s
+Estimated Memory Used:158735.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\084_nantes rezevstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51856, 0.51856];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22033252
+Time Used:12.8356373s
+Estimated Memory Used:170648.8KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\085_tourcoingvsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51644, 0.51644];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22558312
+Time Used:12.9663868s
+Estimated Memory Used:196577.088KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\086_poitiersvsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55117, 0.55117];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23589400
+Time Used:13.5246004s
+Estimated Memory Used:164089.424KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\087_narbonnevsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42939, 0.42939];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22377126
+Time Used:12.8674862s
+Estimated Memory Used:176681.68KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\088_chaumontvstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54613, 0.54613];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21578212
+Time Used:12.5694344s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\089_setevsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52491, 0.52491];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21564088
+Time Used:12.5206789s
+Estimated Memory Used:143975.68KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\090_toulousevssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53945, 0.53945];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22017360
+Time Used:12.6687332s
+Estimated Memory Used:163703.68KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\091_plessis-robinsonvsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53145, 0.53145];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22073872
+Time Used:12.7388482s
+Estimated Memory Used:170200.64KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\092_toursvsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44603, 0.44603];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22079296
+Time Used:12.8248814s
+Estimated Memory Used:171860.672KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\093_st-nazairevsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48498, 0.48498];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23040738
+Time Used:13.2758967s
+Estimated Memory Used:211637.44KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\094_nicevstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44751, 0.44751];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23594174
+Time Used:13.4579044s
+Estimated Memory Used:157269.12KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\095_parisvspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4897, 0.4897];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22116492
+Time Used:12.791233s
+Estimated Memory Used:170200.336KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\096_st-nazairevsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47882, 0.47882];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22369768
+Time Used:12.9113714s
+Estimated Memory Used:181804.832KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\097_toulousevsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53425, 0.53425];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22501910
+Time Used:12.8836947s
+Estimated Memory Used:188097.04KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\098_setevsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55286, 0.55286];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21634690
+Time Used:12.5379837s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\099_poitiersvstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51561, 0.51561];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22138744
+Time Used:12.7727011s
+Estimated Memory Used:169447.264KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\100_montpelliervsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.57994, 0.57994];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296887
+MDP Iterations:23868868
+Time Used:13.5887172s
+Estimated Memory Used:172584.432KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\101_chaumontvsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56533, 0.56533];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21565770
+Time Used:12.5473223s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\102_poitiersvstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49382, 0.49382];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22111898
+Time Used:12.7028303s
+Estimated Memory Used:163290.864KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\103_toursvstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4694, 0.4694];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22296598
+Time Used:12.8660417s
+Estimated Memory Used:180762.112KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\104_plessis-robinsonvsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43893, 0.43893];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22123330
+Time Used:12.7632123s
+Estimated Memory Used:170193.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\105_nicevssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48122, 0.48122];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23519220
+Time Used:13.526022s
+Estimated Memory Used:159759.664KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\106_nantes rezevschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49042, 0.49042];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21597866
+Time Used:12.5423451s
+Estimated Memory Used:144072.944KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\107_parisvsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48209, 0.48209];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22626224
+Time Used:13.0994392s
+Estimated Memory Used:194269.936KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\108_montpelliervstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51168, 0.51168];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22353860
+Time Used:12.8450885s
+Estimated Memory Used:175003.152KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\109_setevspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48035, 0.48035];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22101326
+Time Used:12.8060685s
+Estimated Memory Used:170655.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\110_chaumontvsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58196, 0.58196];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22364246
+Time Used:12.9023825s
+Estimated Memory Used:183456.704KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\111_narbonnevstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43367, 0.43367];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22116024
+Time Used:12.7612498s
+Estimated Memory Used:164092.64KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\112_st-nazairevsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53196, 0.53196];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22783894
+Time Used:13.0941812s
+Estimated Memory Used:209699.392KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\113_nantes rezevstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51065, 0.51065];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22121524
+Time Used:12.7160778s
+Estimated Memory Used:163764.192KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\114_toulousevschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46542, 0.46542];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21570074
+Time Used:12.5408059s
+Estimated Memory Used:139932.672KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\115_plessis-robinsonvsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44479, 0.44479];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22086458
+Time Used:12.7215433s
+Estimated Memory Used:163637.824KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\116_tourcoingvstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51452, 0.51452];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22116414
+Time Used:12.8346071s
+Estimated Memory Used:171860.672KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\117_setevsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47796, 0.47796];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23465376
+Time Used:13.3867214s
+Estimated Memory Used:158735.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\118_nicevsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53814, 0.53814];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22836040
+Time Used:13.0979503s
+Estimated Memory Used:209372.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\119_parisvsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46922, 0.46922];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22854546
+Time Used:13.1496809s
+Estimated Memory Used:205343.792KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\120_montpelliervstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50498, 0.50498];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22832138
+Time Used:13.0576238s
+Estimated Memory Used:203008.864KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\121_plessis-robinsonvsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47674, 0.47674];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22109244
+Time Used:12.7237291s
+Estimated Memory Used:163633.088KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\122_st-nazairevspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50418, 0.50418];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22610604
+Time Used:13.0108259s
+Estimated Memory Used:196441.376KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\123_toursvsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52712, 0.52712];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23066536
+Time Used:13.2004431s
+Estimated Memory Used:216593.536KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\124_chaumontvssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56492, 0.56492];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22035400
+Time Used:12.6525111s
+Estimated Memory Used:163638KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\125_nantes rezevsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58665, 0.58665];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21644122
+Time Used:12.6141422s
+Estimated Memory Used:144401.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\126_tourcoingvschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46396, 0.46396];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21573318
+Time Used:12.5201529s
+Estimated Memory Used:144012.672KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\127_toulousevsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51828, 0.51828];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23019614
+Time Used:13.0592651s
+Estimated Memory Used:209109.76KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\128_poitiersvsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46437, 0.46437];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23057940
+Time Used:13.1265549s
+Estimated Memory Used:215386.944KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\129_nicevsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44529, 0.44529];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23499192
+Time Used:13.3785195s
+Estimated Memory Used:156747.216KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\130_toursvsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52648, 0.52648];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22065132
+Time Used:12.7988585s
+Estimated Memory Used:172164.224KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\131_parisvsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56675, 0.56675];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22113620
+Time Used:13.0415943s
+Estimated Memory Used:169485.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\132_nantes rezevsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51868, 0.51868];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22509852
+Time Used:13.0224565s
+Estimated Memory Used:193744.176KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\133_plessis-robinsonvsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50132, 0.50132];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23049986
+Time Used:13.208885s
+Estimated Memory Used:216593.456KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\134_tourcoingvssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51297, 0.51297];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22135592
+Time Used:12.7028852s
+Estimated Memory Used:157003.072KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\135_narbonnevstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41193, 0.41193];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21635834
+Time Used:12.6123895s
+Estimated Memory Used:144404.896KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\136_montpelliervstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52335, 0.52335];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22818336
+Time Used:13.1254791s
+Estimated Memory Used:209571.232KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\137_chaumontvspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55644, 0.55644];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21612066
+Time Used:12.5527962s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\138_st-nazairevstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49012, 0.49012];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22619682
+Time Used:12.9779982s
+Estimated Memory Used:189953.824KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\139_toulousevsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53709, 0.53709];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22043694
+Time Used:12.6971709s
+Estimated Memory Used:157139.616KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\140_setevstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46251, 0.46251];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22582230
+Time Used:13.0093005s
+Estimated Memory Used:194296.704KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\141_poitiersvsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47399, 0.47399];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22335022
+Time Used:12.7781971s
+Estimated Memory Used:176417.792KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\142_narbonnevsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4077, 0.4077];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22362276
+Time Used:12.9463977s
+Estimated Memory Used:183325.36KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\143_parisvschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44751, 0.44751];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22059374
+Time Used:12.7000107s
+Estimated Memory Used:162768.608KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\144_chaumontvsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51742, 0.51742];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22745060
+Time Used:13.0587546s
+Estimated Memory Used:209700.576KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\145_tourcoingvstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49014, 0.49014];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22074716
+Time Used:12.6917416s
+Estimated Memory Used:162522.72KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\146_nicevsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48346, 0.48346];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23540264
+Time Used:13.4698239s
+Estimated Memory Used:164085.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\147_nantes rezevssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53698, 0.53698];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22129170
+Time Used:12.7793363s
+Estimated Memory Used:170194.064KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\148_toursvsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51969, 0.51969];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23465348
+Time Used:13.4175158s
+Estimated Memory Used:158575.216KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\149_narbonnevspoitiers.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43929, 0.43929];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21666678
+Time Used:12.6434235s
+Estimated Memory Used:144081.12KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\150_parisvssete.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50677, 0.50677];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22829064
+Time Used:13.1149516s
+Estimated Memory Used:206891.104KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\151_poitiersvsplessis-robinson.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50767, 0.50767];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22106282
+Time Used:12.6988816s
+Estimated Memory Used:165294.912KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\152_montpelliervsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50009, 0.50009];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22374200
+Time Used:12.9104535s
+Estimated Memory Used:182585.984KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\153_toulousevsnice.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53138, 0.53138];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23028726
+Time Used:13.1529338s
+Estimated Memory Used:218671.584KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\154_tourcoingvsnarbonne.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5608, 0.5608];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21665190
+Time Used:12.5877167s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\155_st-nazairevschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44677, 0.44677];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22108886
+Time Used:12.8360408s
+Estimated Memory Used:170264.768KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\156_chaumontvsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54899, 0.54899];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22481956
+Time Used:12.9655971s
+Estimated Memory Used:193875.264KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\157_nantes rezevsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53342, 0.53342];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22581294
+Time Used:12.8911202s
+Estimated Memory Used:183325.616KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\158_tourcoingvstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49116, 0.49116];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22061230
+Time Used:12.7923043s
+Estimated Memory Used:170266.304KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\159_toursvsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48271, 0.48271];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22613980
+Time Used:13.0095233s
+Estimated Memory Used:196575.392KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\160_chaumontvsparis.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55106, 0.55106];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22478374
+Time Used:12.8753357s
+Estimated Memory Used:183391.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\161_nantes rezevsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53123, 0.53123];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22596698
+Time Used:12.9879795s
+Estimated Memory Used:191546.736KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\162_tourcoingvstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49407, 0.49407];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22074676
+Time Used:12.690112s
+Estimated Memory Used:165593.408KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\163_toursvsmontpellier.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48536, 0.48536];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22362906
+Time Used:12.9313975s
+Estimated Memory Used:183456.656KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\164_parisvschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45222, 0.45222];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22488620
+Time Used:12.9847824s
+Estimated Memory Used:196451.136KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\165_st-nazairevsnantes reze.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47596, 0.47596];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22372408
+Time Used:12.9461352s
+Estimated Memory Used:183489.248KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\166_toulousevstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50586, 0.50586];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22058744
+Time Used:12.762201s
+Estimated Memory Used:168922.592KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\167_montpelliervstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51339, 0.51339];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22130714
+Time Used:12.8161067s
+Estimated Memory Used:170193.856KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\168_toulousevstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50941, 0.50941];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22056196
+Time Used:12.7116638s
+Estimated Memory Used:168797.216KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\169_tourcoingvstoulouse.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49002, 0.49002];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22069482
+Time Used:12.8145242s
+Estimated Memory Used:170653.12KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\170_chaumontvstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5203, 0.5203];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22009642
+Time Used:12.8174425s
+Estimated Memory Used:170397.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\171_tourcoingvsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49415, 0.49415];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22855106
+Time Used:13.1018115s
+Estimated Memory Used:207942.128KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\172_toursvschaumont.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47773, 0.47773];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22037276
+Time Used:12.8152825s
+Estimated Memory Used:165294.912KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\173_st-nazairevstourcoing.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51086, 0.51086];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22629566
+Time Used:13.0531105s
+Estimated Memory Used:196580.128KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\174_tourcoingvsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49402, 0.49402];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22849578
+Time Used:13.0543367s
+Estimated Memory Used:203465.2KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\175_st-nazairevstours.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47646, 0.47646];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22806590
+Time Used:13.0269058s
+Estimated Memory Used:201903.504KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\176_toursvsst-nazaire.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51927, 0.51927];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22590334
+Time Used:12.9500483s
+Estimated Memory Used:188776.576KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\output.txt
+**************************START************************
+**************************ERROR************************
+The process cannot access the file 'C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window_1\france\2024\output.txt' because it is being used by another process.
+***************************END*************************
+

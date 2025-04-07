@@ -1,0 +1,2307 @@
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\000_BULvsSRB.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.39924, 0.39924];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21295714
+Time Used:13.1739006s
+Estimated Memory Used:212269.952KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\001_CANvsGER.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56269, 0.56269];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23103126
+Time Used:13.4625613s
+Estimated Memory Used:216589.856KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\002_SLOvsUSA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52417, 0.52417];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22655174
+Time Used:13.1656748s
+Estimated Memory Used:187452.576KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\003_JPNvsNED.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54802, 0.54802];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22106818
+Time Used:12.9407591s
+Estimated Memory Used:169853.728KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\004_POLvsARG.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58009, 0.58009];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22653800
+Time Used:13.2155556s
+Estimated Memory Used:194150.624KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\005_FRAvsITA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51181, 0.51181];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23076650
+Time Used:13.3465535s
+Estimated Memory Used:215403.536KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\006_BRAvsAUS.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.71127, 0.71127];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23086140
+Time Used:13.3339382s
+Estimated Memory Used:212010.72KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\007_NEDvsUSA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4706, 0.4706];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22157098
+Time Used:12.9567119s
+Estimated Memory Used:164088KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\008_GERvsARG.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49721, 0.49721];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23146842
+Time Used:13.5126658s
+Estimated Memory Used:137575.104KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\009_SRBvsFRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53004, 0.53004];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20788012
+Time Used:12.2801043s
+Estimated Memory Used:176955.84KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\010_POLvsITA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52701, 0.52701];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23133802
+Time Used:13.4210448s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\011_BRAvsSLO.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5703, 0.5703];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21615906
+Time Used:12.6583449s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\012_NEDvsIRI.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50371, 0.50371];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21628716
+Time Used:12.6405321s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\013_JPNvsUSA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49844, 0.49844];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22135448
+Time Used:13.13006s
+Estimated Memory Used:170221.344KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\014_SRBvsARG.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.59074, 0.59074];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21346654
+Time Used:12.7715917s
+Estimated Memory Used:214963.68KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\015_BULvsGER.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49363, 0.49363];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22610396
+Time Used:13.1232661s
+Estimated Memory Used:190339.808KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\016_FRAvsCAN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49824, 0.49824];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22086002
+Time Used:12.9068441s
+Estimated Memory Used:170328.384KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\017_AUSvsSLO.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.35244, 0.35244];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:24307846
+Time Used:13.9096723s
+Estimated Memory Used:194545.344KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\018_USAvsBRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42044, 0.42044];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22846792
+Time Used:13.1800005s
+Estimated Memory Used:201085.792KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\019_GERvsSRB.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44384, 0.44384];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20604018
+Time Used:12.4512216s
+Estimated Memory Used:170329.952KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\020_BULvsPOL.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43971, 0.43971];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23099182
+Time Used:13.5117238s
+Estimated Memory Used:137842.336KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\021_CANvsITA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49393, 0.49393];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23786342
+Time Used:13.7476784s
+Estimated Memory Used:177218.144KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\022_IRIvsAUS.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.60764, 0.60764];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23347006
+Time Used:13.7153641s
+Estimated Memory Used:146567.392KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\023_IRIvsJPN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46561, 0.46561];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22064762
+Time Used:12.928011s
+Estimated Memory Used:170651.872KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\024_NEDvsAUS.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.62623, 0.62623];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23770868
+Time Used:13.7536043s
+Estimated Memory Used:172163.936KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\025_FRAvsPOL.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4738, 0.4738];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23471370
+Time Used:13.6191691s
+Estimated Memory Used:164088KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\026_ARGvsITA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47587, 0.47587];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296785
+MDP Iterations:23725088
+Time Used:13.7881454s
+Estimated Memory Used:168658.64KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\027_BULvsCAN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48026, 0.48026];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297037
+MDP Iterations:23540684
+Time Used:13.6342847s
+Estimated Memory Used:159033.088KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\028_SLOvsNED.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4787, 0.4787];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21342708
+Time Used:12.630028s
+Estimated Memory Used:216269.632KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\029_ARGvsJPN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41418, 0.41418];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296785
+MDP Iterations:22282784
+Time Used:12.9427203s
+Estimated Memory Used:170323.136KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\030_AUSvsCAN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.42435, 0.42435];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297037
+MDP Iterations:24246898
+Time Used:13.9842401s
+Estimated Memory Used:196218.688KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\031_IRIvsBUL.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51616, 0.51616];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22129260
+Time Used:12.9438218s
+Estimated Memory Used:164085.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\032_GERvsITA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50288, 0.50288];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22852230
+Time Used:13.3791221s
+Estimated Memory Used:210031.344KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\033_BRAvsPOL.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58174, 0.58174];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21586008
+Time Used:12.6935296s
+Estimated Memory Used:139351.008KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\034_SRBvsUSA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55271, 0.55271];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21324510
+Time Used:12.554281s
+Estimated Memory Used:206517.696KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\035_FRAvsNED.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45373, 0.45373];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21363884
+Time Used:12.5478075s
+Estimated Memory Used:204788.08KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\036_ARGvsSLO.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48716, 0.48716];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22086114
+Time Used:12.8993831s
+Estimated Memory Used:159037.296KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\037_POLvsCAN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50154, 0.50154];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297037
+MDP Iterations:22140996
+Time Used:13.1239313s
+Estimated Memory Used:170321.168KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\038_SRBvsBRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50224, 0.50224];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20519306
+Time Used:12.2102537s
+Estimated Memory Used:172164.224KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\039_USAvsIRI.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54241, 0.54241];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22113902
+Time Used:12.9439872s
+Estimated Memory Used:170324.768KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\040_GERvsNED.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45729, 0.45729];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21799594
+Time Used:12.834769s
+Estimated Memory Used:157528.624KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\041_JPNvsITA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58556, 0.58556];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22113456
+Time Used:13.1354262s
+Estimated Memory Used:170650.816KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\042_SRBvsCAN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5436, 0.5436];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297037
+MDP Iterations:21201986
+Time Used:12.6658062s
+Estimated Memory Used:213853.616KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\043_IRIvsBRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49092, 0.49092];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21329288
+Time Used:12.5139457s
+Estimated Memory Used:203255.792KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\044_AUSvsBUL.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41345, 0.41345];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:23605370
+Time Used:13.5950293s
+Estimated Memory Used:157134.64KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\045_ARGvsNED.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4882, 0.4882];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22107710
+Time Used:12.9828144s
+Estimated Memory Used:169090.272KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\046_JPNvsFRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56518, 0.56518];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21592364
+Time Used:12.8761099s
+Estimated Memory Used:144015.904KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\047_ITAvsSLO.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45414, 0.45414];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22077428
+Time Used:12.9528203s
+Estimated Memory Used:170390.88KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\048_CANvsIRI.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46132, 0.46132];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297037
+MDP Iterations:21303304
+Time Used:12.5883814s
+Estimated Memory Used:215933.248KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\049_POLvsAUS.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5868, 0.5868];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22422018
+Time Used:13.096294s
+Estimated Memory Used:177217.856KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\050_USAvsBUL.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.57216, 0.57216];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22081346
+Time Used:13.0120316s
+Estimated Memory Used:170655.536KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\051_GERvsFRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46868, 0.46868];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22610894
+Time Used:13.3220958s
+Estimated Memory Used:194946.304KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\052_JPNvsSLO.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55777, 0.55777];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21392404
+Time Used:12.5732525s
+Estimated Memory Used:202241.408KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\053_SRBvsAUS.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.64838, 0.64838];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21585844
+Time Used:12.7432275s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\054_USAvsPOL.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.5322, 0.5322];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21326848
+Time Used:12.6192975s
+Estimated Memory Used:213196.256KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\055_BULvsBRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4225, 0.4225];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22072350
+Time Used:12.8453194s
+Estimated Memory Used:163765.408KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\056_USAvsGER.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.59401, 0.59401];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22057414
+Time Used:12.9924935s
+Estimated Memory Used:170328.384KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\057_CANvsARG.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49345, 0.49345];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297037
+MDP Iterations:22758904
+Time Used:13.4449271s
+Estimated Memory Used:205862.112KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\058_BULvsITA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.48599, 0.48599];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22077654
+Time Used:12.9092182s
+Estimated Memory Used:163703.712KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\059_IRIvsPOL.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51836, 0.51836];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21344036
+Time Used:12.6562214s
+Estimated Memory Used:212432.368KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\060_BRAvsGER.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.61826, 0.61826];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297037
+MDP Iterations:22743138
+Time Used:13.1770784s
+Estimated Memory Used:200470.24KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\061_JPNvsAUS.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.62844, 0.62844];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22128588
+Time Used:13.1004698s
+Estimated Memory Used:170331.744KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\062_SLOvsSRB.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43142, 0.43142];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20834982
+Time Used:12.3936748s
+Estimated Memory Used:182540.56KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\063_FRAvsUSA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.4307, 0.4307];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21988770
+Time Used:12.8710086s
+Estimated Memory Used:163699.536KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\064_GERvsAUS.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51264, 0.51264];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22821936
+Time Used:13.3274081s
+Estimated Memory Used:209700.768KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\065_CANvsBRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44044, 0.44044];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:295980
+MDP Iterations:21471944
+Time Used:12.736533s
+Estimated Memory Used:206614.208KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\066_ITAvsIRI.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.44116, 0.44116];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21350002
+Time Used:12.5225477s
+Estimated Memory Used:204156.736KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\067_BULvsSLO.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46878, 0.46878];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21856512
+Time Used:12.7734245s
+Estimated Memory Used:150703.136KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\068_ARGvsAUS.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.54742, 0.54742];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22131600
+Time Used:13.0246977s
+Estimated Memory Used:170327.984KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\069_FRAvsBRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.41564, 0.41564];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297037
+MDP Iterations:21788134
+Time Used:12.8185403s
+Estimated Memory Used:157194.24KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\070_JPNvsCAN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56457, 0.56457];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296443
+MDP Iterations:22129310
+Time Used:13.0066591s
+Estimated Memory Used:170253.92KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\071_BULvsNED.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46172, 0.46172];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21594614
+Time Used:12.8224232s
+Estimated Memory Used:144077.888KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\072_SLOvsIRI.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.46269, 0.46269];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21332090
+Time Used:12.5922299s
+Estimated Memory Used:215550.544KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\073_ITAvsSRB.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.47432, 0.47432];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21271716
+Time Used:12.5435881s
+Estimated Memory Used:203340.464KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\074_FRAvsARG.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52355, 0.52355];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21640738
+Time Used:12.7590331s
+Estimated Memory Used:140078.112KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\075_CANvsUSA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43356, 0.43356];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:296443
+MDP Iterations:21556078
+Time Used:12.6796405s
+Estimated Memory Used:137506.208KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\076_GERvsJPN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.3943, 0.3943];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22083706
+Time Used:12.8844281s
+Estimated Memory Used:162880.8KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\077_IRIvsSRB.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52082, 0.52082];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20356724
+Time Used:12.200502s
+Estimated Memory Used:159037.296KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\078_POLvsNED.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53908, 0.53908];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21344526
+Time Used:12.645396s
+Estimated Memory Used:217909.216KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\079_USAvsARG.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.58387, 0.58387];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21352608
+Time Used:12.5189372s
+Estimated Memory Used:203469.216KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\080_AUSvsFRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43353, 0.43353];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22548558
+Time Used:13.0880137s
+Estimated Memory Used:190045.552KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\081_BRAvsJPN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.50418, 0.50418];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21584800
+Time Used:12.7098889s
+Estimated Memory Used:144143.776KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\082_ITAvsNED.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53676, 0.53676];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21357978
+Time Used:12.6068049s
+Estimated Memory Used:215550.544KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\083_POLvsSLO.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.56965, 0.56965];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21357878
+Time Used:12.5864613s
+Estimated Memory Used:204156.736KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\084_USAvsBRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.51123, 0.51123];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21284206
+Time Used:12.7437933s
+Estimated Memory Used:215518.048KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\085_ITAvsNED.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.53839, 0.53839];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21314744
+Time Used:12.5031971s
+Estimated Memory Used:203141.6KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\086_FRAvsJPN.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.45283, 0.45283];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21581144
+Time Used:12.6894434s
+Estimated Memory Used:137584.416KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\087_POLvsIRI.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.52678, 0.52678];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:20863042
+Time Used:12.3666202s
+Estimated Memory Used:185943.168KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\088_POLvsUSA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49937, 0.49937];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21330132
+Time Used:12.5549591s
+Estimated Memory Used:203916.672KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\089_ITAvsFRA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.55323, 0.55323];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21619732
+Time Used:12.6560284s
+Estimated Memory Used:137518.528KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\090_ITAvsPOL.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.49746, 0.49746];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:22073768
+Time Used:12.9348546s
+Estimated Memory Used:170264.576KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\091_FRAvsUSA.pcsp
+**************************START************************
+=======================================================
+Assertion: AllRotations() reaches goal with prob
+********Verification Result********
+The Assertion (AllRotations() reaches goal with prob) is Valid with Probability [0.43564, 0.43564];
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: Graph-based Probability Computation Based on Value Iteration
+System Abstraction: False
+Maximum difference threshold : 1E-06
+
+
+********Verification Statistics********
+Visited States:166873
+Total Transitions:297500
+MDP Iterations:21340046
+Time Used:12.5335221s
+Estimated Memory Used:203141.216KB
+
+
+***************************END*************************
+
+*******************************************************
+*C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\output.txt
+**************************START************************
+**************************ERROR************************
+The process cannot access the file 'C:\Users\Jingyan\Desktop\fyp\prediction\sliding_window\vnl\2022\output.txt' because it is being used by another process.
+***************************END*************************
+

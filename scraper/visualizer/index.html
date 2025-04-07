@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Match Visualizer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .filters {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+      }
+      .filter-group {
+        flex: 1;
+        min-width: 200px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      select,
+      input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+        position: sticky;
+        top: 0;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+      .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 5px;
+      }
+      .pagination button {
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      .pagination button.active {
+        background-color: #4caf50;
+        color: white;
+        border-color: #4caf50;
+      }
+      .pagination button:hover:not(.active) {
+        background-color: #ddd;
+      }
+      .pagination button:disabled {
+        color: #ccc;
+        cursor: not-allowed;
+      }
+      .match-details {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 15px;
+      }
+      .team {
+        text-align: center;
+      }
+      .score {
+        font-weight: bold;
+        font-size: 1.2em;
+        text-align: center;
+      }
+      .set-details {
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #666;
+      }
+      .winner {
+        font-weight: bold;
+        color: #4caf50;
+      }
+      .loser {
+        color: #f44336;
+      }
+      .draw {
+        color: #ff9800;
+      }
+      .loading {
+        text-align: center;
+        padding: 20px;
+        font-style: italic;
+        color: #666;
+      }
+      .error {
+        color: red;
+        padding: 10px;
+        border: 1px solid red;
+        background-color: #fff8f8;
+        border-radius: 4px;
+        margin-bottom: 15px;
+      }
+      .match-row {
+        cursor: pointer;
+      }
+      .match-expanded {
+        padding: 15px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-top: 10px;
+      }
+      .no-results {
+        text-align: center;
+        padding: 20px;
+        color: #666;
+        font-style: italic;
+      }
+      .highlight {
+        background-color: #ffff99 !important;
+      }
+      .search-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      .search-actions button {
+        padding: 8px 12px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .search-actions button:hover {
+        background-color: #45a049;
+      }
+      .clear-btn {
+        background-color: #f44336 !important;
+      }
+      .clear-btn:hover {
+        background-color: #d32f2f !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Match Visualizer</h1>
+
+      <div class="filters">
+        <div class="filter-group">
+          <label for="leagueFilter">Filter by League:</label>
+          <select id="leagueFilter">
+            <option value="">All Leagues</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="seasonFilter">Filter by Season:</label>
+          <select id="seasonFilter">
+            <option value="">All Seasons</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="teamFilter">Filter by Team:</label>
+          <input type="text" id="teamFilter" placeholder="Enter team name..." />
+        </div>
+        <div class="filter-group">
+          <label for="matchIdFilter">Search by Match ID:</label>
+          <input
+            type="text"
+            id="matchIdFilter"
+            placeholder="Enter match ID..."
+          />
+        </div>
+        <div class="filter-group">
+          <label for="entriesPerPage">Entries per page:</label>
+          <select id="entriesPerPage">
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="search-actions">
+        <button id="searchBtn">Apply Filters</button>
+        <button id="clearBtn" class="clear-btn">Clear Filters</button>
+      </div>
+
+      <div id="errorMessage" class="error" style="display: none"></div>
+
+      <div id="dataTable"></div>
+
+      <div class="pagination" id="pagination"></div>
+    </div>
+
+    <script>
+      // Track application state
+      const state = {
+        data: [],
+        filteredData: [],
+        currentPage: 1,
+        entriesPerPage: 10,
+        leagueFilter: "",
+        seasonFilter: "",
+        teamFilter: "",
+        matchIdFilter: "",
+        leagues: new Set(),
+        seasons: new Set(),
+      };
+
+      // Initialize the application
+      document.addEventListener("DOMContentLoaded", function () {
+        loadData();
+        setupEventListeners();
+      });
+
+      // Load CSV data
+      function loadData() {
+        showLoading();
+
+        fetch("matches.csv")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(
+                "Failed to load matches.csv. Make sure the file exists in the same directory as this HTML file."
+              );
+            }
+            return response.text();
+          })
+          .then((csvData) => {
+            parseCSV(csvData);
+            populateLeagueFilter();
+            populateSeasonFilter();
+            applyFilters();
+          })
+          .catch((error) => {
+            showError(error.message);
+            // Create sample data for demo purposes
+            createSampleData();
+          });
+      }
+
+      // Parse CSV data
+      function parseCSV(csvData) {
+        const lines = csvData.trim().split("\n");
+        const headers = lines[0].split(",").map((header) => header.trim());
+
+        state.data = lines.slice(1).map((line) => {
+          const values = line.split(",").map((value) => value.trim());
+          const match = {};
+
+          headers.forEach((header, index) => {
+            match[header] = values[index];
+          });
+
+          // Track unique leagues
+          if (match.league) {
+            state.leagues.add(match.league);
+          }
+
+          if (match.season) {
+            state.seasons.add(match.season);
+          }
+
+          return match;
+        });
+      }
+
+      // Populate league filter dropdown
+      function populateLeagueFilter() {
+        const leagueFilter = document.getElementById("leagueFilter");
+        leagueFilter.innerHTML = '<option value="">All Leagues</option>';
+
+        [...state.leagues].sort().forEach((league) => {
+          const option = document.createElement("option");
+          option.value = league;
+          option.textContent = league;
+          leagueFilter.appendChild(option);
+        });
+      }
+
+      function populateSeasonFilter() {
+        const seasonFilter = document.getElementById("seasonFilter");
+        seasonFilter.innerHTML = '<option value="">All Seasons</option>';
+
+        [...state.seasons].sort().forEach((season) => {
+          const option = document.createElement("option");
+          option.value = season;
+          option.textContent = season;
+          seasonFilter.appendChild(option);
+        });
+      }
+
+      // Set up event listeners
+      function setupEventListeners() {
+        // Search button click
+        document
+          .getElementById("searchBtn")
+          .addEventListener("click", function () {
+            updateFiltersFromInputs();
+            applyFilters();
+          });
+
+        // Clear button click
+        document
+          .getElementById("clearBtn")
+          .addEventListener("click", function () {
+            clearFilters();
+          });
+
+        // Enter key press in inputs
+        document
+          .getElementById("teamFilter")
+          .addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+              updateFiltersFromInputs();
+              applyFilters();
+            }
+          });
+
+        document
+          .getElementById("matchIdFilter")
+          .addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+              updateFiltersFromInputs();
+              applyFilters();
+            }
+          });
+
+        // Change entries per page
+        document
+          .getElementById("entriesPerPage")
+          .addEventListener("change", function () {
+            state.entriesPerPage = parseInt(this.value);
+            state.currentPage = 1;
+            applyFilters();
+          });
+      }
+
+      // Update filters from input fields
+      function updateFiltersFromInputs() {
+        state.leagueFilter = document.getElementById("leagueFilter").value;
+        state.seasonFilter = document.getElementById("seasonFilter").value;
+        state.teamFilter = document
+          .getElementById("teamFilter")
+          .value.toLowerCase();
+        state.matchIdFilter = document
+          .getElementById("matchIdFilter")
+          .value.toLowerCase();
+        state.currentPage = 1;
+      }
+
+      // Clear all filters
+      function clearFilters() {
+        document.getElementById("leagueFilter").value = "";
+        document.getElementById("seasonFilter").value = "";
+        document.getElementById("teamFilter").value = "";
+        document.getElementById("matchIdFilter").value = "";
+
+        state.leagueFilter = "";
+        state.seasonFilter = "";
+        state.teamFilter = "";
+        state.matchIdFilter = "";
+        state.currentPage = 1;
+
+        applyFilters();
+      }
+
+      // Apply filters to data
+      function applyFilters() {
+        state.filteredData = state.data.filter((match) => {
+          // Apply league filter
+          if (state.leagueFilter && match.league !== state.leagueFilter) {
+            return false;
+          }
+
+          if (state.seasonFilter && match.season !== state.seasonFilter) {
+            return false;
+          }
+
+          // Apply team filter
+          if (state.teamFilter) {
+            const teamFilter = state.teamFilter.toLowerCase();
+            const teamA = (match.teamA || "").toLowerCase();
+            const teamB = (match.teamB || "").toLowerCase();
+
+            if (!teamA.includes(teamFilter) && !teamB.includes(teamFilter)) {
+              return false;
+            }
+          }
+
+          // Apply match ID filter
+          if (state.matchIdFilter) {
+            const matchIdFilter = state.matchIdFilter.toLowerCase();
+            const matchId = (match.match_id || "").toLowerCase();
+
+            if (!matchId.includes(matchIdFilter)) {
+              return false;
+            }
+          }
+
+          return true;
+        });
+
+        renderTable();
+        renderPagination();
+      }
+
+      // Render the data table
+      function renderTable() {
+        const tableContainer = document.getElementById("dataTable");
+
+        if (state.filteredData.length === 0) {
+          tableContainer.innerHTML =
+            '<div class="no-results">No matches found matching your criteria.</div>';
+          return;
+        }
+
+        const startIndex = (state.currentPage - 1) * state.entriesPerPage;
+        const endIndex = Math.min(
+          startIndex + state.entriesPerPage,
+          state.filteredData.length
+        );
+        const pageData = state.filteredData.slice(startIndex, endIndex);
+
+        let tableHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th>Match ID</th>
+              <th>League</th>
+              <th>Season</th>
+              <th>Date</th>
+              <th>Match</th>
+              <th>Score</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+      `;
+
+        pageData.forEach((match) => {
+          const scoreA = parseInt(match.scoreA) || 0;
+          const scoreB = parseInt(match.scoreB) || 0;
+          let resultClass = "";
+
+          if (scoreA > scoreB) {
+            resultClass = "winner";
+          } else if (scoreA < scoreB) {
+            resultClass = "loser";
+          } else {
+            resultClass = "draw";
+          }
+
+          // Add highlight class if match ID is filtered
+          const isHighlighted =
+            state.matchIdFilter &&
+            match.match_id
+              .toLowerCase()
+              .includes(state.matchIdFilter.toLowerCase());
+          const highlightClass = isHighlighted ? "highlight" : "";
+
+          tableHTML += `
+          <tr class="match-row ${highlightClass}" data-match-id="${match.match_id}">
+            <td><a href="statistics.html?match_id=${match.match_id}">${match.match_id}</a></td>
+            <td>${match.league}</td>
+            <td>${match.season}</td>
+            <td>${match.date}</td>
+            <td>${match.teamA} vs ${match.teamB}</td>
+            <td class="${resultClass}">${match.scoreA} - ${match.scoreB}</td>
+            <td>
+              <button onclick="toggleMatchDetails('${match.match_id}')">View Sets</button>
+            </td>
+          </tr>
+          <tr id="details-${match.match_id}" style="display: none;">
+            <td colspan="6">
+              <div class="match-expanded">
+                <div class="match-details">
+                  <div class="team">
+                    <h3>${match.teamA}</h3>
+                  </div>
+                  <div class="score">
+                    ${match.scoreA} - ${match.scoreB}
+                  </div>
+                  <div class="team">
+                    <h3>${match.teamB}</h3>
+                  </div>
+                </div>
+                <div class="set-details">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Set</th>
+                        <th>${match.teamA}</th>
+                        <th>${match.teamB}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+        `;
+
+          // Add set details
+          for (let i = 1; i <= 5; i++) {
+            const setA = match[`setA_${i}`];
+            const setB = match[`setB_${i}`];
+
+            if (setA !== "" || setB !== "") {
+              tableHTML += `
+              <tr>
+                <td>Set ${i}</td>
+                <td>${setA}</td>
+                <td>${setB}</td>
+              </tr>
+            `;
+            }
+          }
+
+          tableHTML += `
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </td>
+          </tr>
+        `;
+        });
+
+        tableHTML += `
+          </tbody>
+        </table>
+      `;
+
+        tableContainer.innerHTML = tableHTML;
+
+        // Auto-expand if there's only one match found via match_id filter
+        if (state.matchIdFilter && state.filteredData.length === 1) {
+          setTimeout(() => {
+            toggleMatchDetails(state.filteredData[0].match_id);
+          }, 100);
+        }
+      }
+
+      // Toggle match details visibility
+      function toggleMatchDetails(matchId) {
+        const detailsRow = document.getElementById(`details-${matchId}`);
+        if (detailsRow.style.display === "none") {
+          detailsRow.style.display = "table-row";
+        } else {
+          detailsRow.style.display = "none";
+        }
+      }
+
+      // Render pagination controls
+      function renderPagination() {
+        const paginationContainer = document.getElementById("pagination");
+        const totalPages = Math.ceil(
+          state.filteredData.length / state.entriesPerPage
+        );
+
+        if (totalPages <= 1) {
+          paginationContainer.innerHTML = "";
+          return;
+        }
+
+        let paginationHTML = `
+        <button onclick="changePage(1)" ${
+          state.currentPage === 1 ? "disabled" : ""
+        }>First</button>
+        <button onclick="changePage(${state.currentPage - 1})" ${
+          state.currentPage === 1 ? "disabled" : ""
+        }>Prev</button>
+      `;
+
+        const maxButtons = 5;
+        const startPage = Math.max(
+          1,
+          state.currentPage - Math.floor(maxButtons / 2)
+        );
+        const endPage = Math.min(totalPages, startPage + maxButtons - 1);
+
+        for (let i = startPage; i <= endPage; i++) {
+          paginationHTML += `
+          <button onclick="changePage(${i})" class="${
+            state.currentPage === i ? "active" : ""
+          }">${i}</button>
+        `;
+        }
+
+        paginationHTML += `
+        <button onclick="changePage(${state.currentPage + 1})" ${
+          state.currentPage === totalPages ? "disabled" : ""
+        }>Next</button>
+        <button onclick="changePage(${totalPages})" ${
+          state.currentPage === totalPages ? "disabled" : ""
+        }>Last</button>
+      `;
+
+        paginationContainer.innerHTML = paginationHTML;
+      }
+
+      // Change current page
+      function changePage(page) {
+        state.currentPage = page;
+        renderTable();
+        renderPagination();
+        window.scrollTo(0, 0);
+      }
+
+      // Show loading indicator
+      function showLoading() {
+        document.getElementById("dataTable").innerHTML =
+          '<div class="loading">Loading match data...</div>';
+      }
+
+      // Show error message
+      function showError(message) {
+        const errorElement = document.getElementById("errorMessage");
+        errorElement.textContent = message;
+        errorElement.style.display = "block";
+      }
+    </script>
+  </body>
+</html>

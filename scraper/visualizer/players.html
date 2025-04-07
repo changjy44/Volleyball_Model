@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Statistics Visualizer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .filters {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+      }
+      .filter-group {
+        flex: 1;
+        min-width: 200px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      select,
+      input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+        white-space: nowrap;
+      }
+      th {
+        background-color: #f2f2f2;
+        position: sticky;
+        top: 0;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+      .sum-row {
+        /* background-color: #000000; */
+        font-weight: bold;
+      }
+      .sum-row td {
+        /* border-top: 2px solid; */
+        border-bottom: 2px solid;
+      }
+      .table-container {
+        overflow-x: auto;
+        max-width: 100%;
+      }
+      .search-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      .search-actions button {
+        padding: 8px 12px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .search-actions button:hover {
+        background-color: #45a049;
+      }
+      .clear-btn {
+        background-color: #f44336 !important;
+      }
+      .clear-btn:hover {
+        background-color: #d32f2f !important;
+      }
+      .player-details {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 15px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+      }
+      .player-details div {
+        margin-bottom: 5px;
+      }
+      .player-detail-label {
+        font-weight: bold;
+      }
+      .player-name {
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        grid-column: 1 / -1;
+        margin-bottom: 15px;
+      }
+      .stats-summary {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 15px;
+        margin: 20px 0;
+      }
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+      }
+      .stat-item {
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      .stat-value {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #4caf50;
+      }
+      .error {
+        color: red;
+        padding: 10px;
+        border: 1px solid red;
+        background-color: #fff8f8;
+        border-radius: 4px;
+        margin-bottom: 15px;
+      }
+      .loading {
+        text-align: center;
+        padding: 20px;
+        font-style: italic;
+        color: #666;
+      }
+      .no-results {
+        text-align: center;
+        padding: 20px;
+        color: #666;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Player Statistics Visualizer</h1>
+
+      <div id="playerDetails" class="player-details"></div>
+
+      <div class="filters">
+        <div class="filter-group">
+          <label for="leagueFilter">Filter by League:</label>
+          <select id="leagueFilter">
+            <option value="">All Leagues</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="seasonsFilter">Filter by Season:</label>
+          <select id="seasonsFilter">
+            <option value="">All Seasons</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="startDateFilter">Start Date:</label>
+          <input type="date" id="startDateFilter" />
+        </div>
+        <div class="filter-group">
+          <label for="endDateFilter">End Date:</label>
+          <input type="date" id="endDateFilter" />
+        </div>
+      </div>
+
+      <div class="search-actions">
+        <button id="searchBtn">Apply Filters</button>
+        <button id="clearBtn" class="clear-btn">Clear Filters</button>
+      </div>
+
+      <div id="errorMessage" class="error" style="display: none"></div>
+
+      <div id="statsSummary" class="stats-summary">
+        <h2>Aggregated Statistics</h2>
+        <div id="statsGrid" class="stats-grid"></div>
+      </div>
+
+      <h2>Match Statistics</h2>
+      <div class="table-container">
+        <div id="statisticsTable"></div>
+      </div>
+    </div>
+
+    <script>
+      // Track application state
+      const state = {
+        player: null,
+        playerStats: [],
+        filteredStats: [],
+        leagues: new Set(),
+        seasons: new Set(),
+        playerId: null,
+        leagueFilter: "",
+        seasonFilter: "",
+        startDateFilter: "",
+        endDateFilter: "",
+      };
+
+      // Initialize the application
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get player_id from URL query parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        state.playerId = urlParams.get("player_id");
+
+        if (!state.playerId) {
+          showError(
+            "No player_id specified in URL. Add ?player_id=X to the URL."
+          );
+          return;
+        }
+
+        loadPlayerData();
+        loadStatisticsData();
+        setupEventListeners();
+      });
+
+      // Load player data
+      function loadPlayerData() {
+        showLoading("playerDetails");
+
+        fetch("players.csv")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(
+                "Failed to load players.csv. Make sure the file exists in the same directory as this HTML file."
+              );
+            }
+            return response.text();
+          })
+          .then((csvData) => {
+            parsePlayerData(csvData);
+            renderPlayerDetails();
+          })
+          .catch((error) => {
+            showError(error.message);
+          });
+      }
+
+      // Parse player CSV data
+      function parsePlayerData(csvData) {
+        const lines = csvData.trim().split("\n");
+        const headers = lines[0].split(",").map((header) => header.trim());
+
+        for (let i = 1; i < lines.length; i++) {
+          const values = lines[i].split(",").map((value) => value.trim());
+          const player = {};
+
+          headers.forEach((header, index) => {
+            player[header] = values[index];
+          });
+
+          if (player.player_id === state.playerId) {
+            state.player = player;
+            break;
+          }
+        }
+      }
+
+      // Load statistics data
+      function loadStatisticsData() {
+        showLoading("statisticsTable");
+
+        fetch("statistics.csv")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(
+                "Failed to load statistics.csv. Make sure the file exists in the same directory as this HTML file."
+              );
+            }
+            return response.text();
+          })
+          .then((csvData) => {
+            parseStatisticsData(csvData);
+            populateLeagueAndSeasonFilter();
+            applyFilters();
+          })
+          .catch((error) => {
+            showError(error.message);
+          });
+      }
+
+      // Parse statistics CSV data
+      function parseStatisticsData(csvData) {
+        const lines = csvData.trim().split("\n");
+        const headers = lines[0].split(",").map((header) => header.trim());
+
+        state.playerStats = [];
+
+        for (let i = 1; i < lines.length; i++) {
+          const values = lines[i].split(",").map((value) => value.trim());
+          const stat = {};
+
+          headers.forEach((header, index) => {
+            stat[header] = values[index];
+          });
+
+          if (stat.player_id === state.playerId) {
+            // Extract date from match_id (assuming format like YYYYMMDD*)
+            const matchId = stat.match_date || "";
+            if (matchId.length >= 8) {
+              const year = matchId.substring(0, 4);
+              const month = matchId.substring(5, 7);
+              const day = matchId.substring(8, 10);
+              stat.match_date = `${year}-${month}-${day}`;
+            } else {
+              stat.match_date = "Unknown";
+            }
+
+            state.playerStats.push(stat);
+
+            // Track leagues
+            if (stat.league) {
+              state.leagues.add(stat.league);
+            }
+
+            if (stat.season) {
+              state.seasons.add(stat.season);
+            }
+          }
+        }
+
+        // Sort by date (descending)
+        state.playerStats.sort((a, b) => {
+          return b.match_date.localeCompare(a.match_date);
+        });
+      }
+
+      // Populate league filter dropdown
+      function populateLeagueAndSeasonFilter() {
+        const leagueFilter = document.getElementById("leagueFilter");
+        leagueFilter.innerHTML = '<option value="">All Leagues</option>';
+
+        [...state.leagues].sort().forEach((league) => {
+          const option = document.createElement("option");
+          option.value = league;
+          option.textContent = league;
+          leagueFilter.appendChild(option);
+        });
+
+        const seasonsFilter = document.getElementById("seasonsFilter");
+        seasonsFilter.innerHTML = '<option value="">All Seasons</option>';
+
+        [...state.seasons].forEach((season) => {
+          const option = document.createElement("option");
+          option.value = season;
+          option.textContent = season;
+          seasonsFilter.appendChild(option);
+        });
+      }
+
+      // Set up event listeners
+      function setupEventListeners() {
+        // Search button click
+        document
+          .getElementById("searchBtn")
+          .addEventListener("click", function () {
+            updateFiltersFromInputs();
+            applyFilters();
+          });
+
+        // Clear button click
+        document
+          .getElementById("clearBtn")
+          .addEventListener("click", function () {
+            clearFilters();
+          });
+      }
+
+      // Update filters from input fields
+      function updateFiltersFromInputs() {
+        state.leagueFilter = document.getElementById("leagueFilter").value;
+        state.seasonFilter = document.getElementById("seasonsFilter").value;
+        state.startDateFilter =
+          document.getElementById("startDateFilter").value;
+        state.endDateFilter = document.getElementById("endDateFilter").value;
+      }
+
+      // Clear all filters
+      function clearFilters() {
+        document.getElementById("leagueFilter").value = "";
+        document.getElementById("seasonsFilter").value = "";
+        document.getElementById("startDateFilter").value = "";
+        document.getElementById("endDateFilter").value = "";
+
+        state.leagueFilter = "";
+        state.seasonFilter = "";
+        state.startDateFilter = "";
+        state.endDateFilter = "";
+
+        applyFilters();
+      }
+
+      // Apply filters to data
+      function applyFilters() {
+        state.filteredStats = state.playerStats.filter((stat) => {
+          // Apply league filter
+          if (state.leagueFilter && stat.league !== state.leagueFilter) {
+            return false;
+          }
+
+          if (state.seasonFilter && stat.season !== state.seasonFilter) {
+            return false;
+          }
+
+          // Apply date filters
+          if (
+            state.startDateFilter &&
+            stat.match_date < state.startDateFilter
+          ) {
+            return false;
+          }
+
+          if (state.endDateFilter && stat.match_date > state.endDateFilter) {
+            return false;
+          }
+
+          return true;
+        });
+
+        renderStatisticsTable();
+        renderStatsSummary();
+      }
+
+      // Render player details
+      function renderPlayerDetails() {
+        skip_columns = [
+          "player_id",
+          "player_name",
+          "volleybox_role",
+          "back_attack_points",
+          "back_attack_errors",
+          "back_attack_total",
+          "back_attack_kill_efficiency",
+        ];
+
+        non_numeric_columns = [
+          "league",
+          "match_id",
+          "season",
+          "match_date",
+          "team",
+          "jersey_number",
+          "starter_role",
+        ];
+
+        efficiency_columns = [
+          "attack_kill_efficiency",
+          "attack_efficiency",
+          "block_efficiency",
+          "serve_efficiency",
+          "reception_positive_%",
+          "reception_perfect_%",
+          "reception_efficiency",
+          "dig_efficiency",
+          "set_efficiency",
+        ];
+
+        const container = document.getElementById("playerDetails");
+
+        if (!state.player) {
+          container.innerHTML = `<div class="no-results">Player with ID ${state.playerId} not found.</div>`;
+          return;
+        }
+
+        let html = `
+        <h1 class="player-name">${state.player.player_name || "N/A"}</h1>
+        <div><span class="player-detail-label">Country:</span> ${
+          state.player.country || "N/A"
+        }</div>
+        <div><span class="player-detail-label">Role:</span> ${
+          state.player.volleybox_role || "N/A"
+        }</div>
+        <div><span class="player-detail-label">Birthday:</span> ${
+          state.player.birthday || "N/A"
+        }</div>
+      `;
+
+        if (state.player.volleybox_link) {
+          html += `<div><span class="player-detail-label">Volleybox:</span> <a href="${state.player.volleybox_link}" target="_blank">View Profile</a></div>`;
+        }
+
+        container.innerHTML = html;
+      }
+
+      // Check if a value is numeric
+      function isNumeric(value) {
+        return !isNaN(parseFloat(value)) && isFinite(value);
+      }
+
+      // Render statistics table
+      function renderStatisticsTable() {
+        const container = document.getElementById("statisticsTable");
+
+        if (state.filteredStats.length === 0) {
+          container.innerHTML =
+            '<div class="no-results">No statistics found matching your criteria.</div>';
+          return;
+        }
+
+        // Get all column headers from the first statistics entry
+        const columns = Object.keys(state.filteredStats[0]);
+
+        // Calculate column sums
+        const columnSums = {};
+        columns.forEach((col) => {
+          // Initialize each column sum
+          columnSums[col] = 0;
+
+          // Sum up numeric values
+          state.filteredStats.forEach((stat) => {
+            const value = stat[col];
+            if (isNumeric(value)) {
+              columnSums[col] += parseFloat(value);
+            }
+          });
+        });
+
+        columnSums["attack_kill_efficiency"] =
+          (100 * columnSums["attack_points"]) / columnSums["attack_total"];
+        columnSums["attack_efficiency"] =
+          (100 * (columnSums["attack_points"] - columnSums["attack_errors"])) /
+          columnSums["attack_total"];
+        columnSums["block_efficiency"] =
+          (100 * (columnSums["block_points"] - columnSums["block_errors"])) /
+          columnSums["block_total"];
+        columnSums["serve_efficiency"] =
+          (100 * (columnSums["serve_points"] - columnSums["serve_errors"])) /
+          columnSums["serve_total"];
+        columnSums["reception_positive_%"] =
+          (100 * columnSums["reception_positive"]) /
+          columnSums["reception_total"];
+        columnSums["reception_perfect_%"] =
+          (100 * columnSums["reception_perfect"]) /
+          columnSums["reception_total"];
+        columnSums["reception_efficiency"] =
+          (100 *
+            (columnSums["reception_perfect"] -
+              columnSums["reception_errors"])) /
+          columnSums["reception_total"];
+        columnSums["dig_efficiency"] =
+          (100 * columnSums["dig_sucess"]) / columnSums["dig_total"];
+        columnSums["set_efficiency"] =
+          (100 * columnSums["set_success"]) / columnSums["set_total"];
+
+        let tableHTML = `
+        <table>
+          <thead>
+            <tr>
+              ${columns
+                .map((col) => {
+                  if (!skip_columns.includes(col)) {
+                    return `<th>${col}</th>`;
+                  }
+                })
+                .join("")}
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="sum-row">
+              ${columns
+                .filter((col) => {
+                  return !skip_columns.includes(col);
+                })
+                .map((col, id) => {
+                  if (id === 0) {
+                    return "<td>TOTAL</td>";
+                  } else if (non_numeric_columns.includes(col)) {
+                    return `<td></td>`;
+                  } else if (efficiency_columns.includes(col)) {
+                    return `<td>${columnSums[col].toFixed(4)}%</td>`;
+                  } else {
+                    return `<td>${columnSums[col].toFixed(0)}</td>`;
+                  }
+                })
+                .join("")}
+            </tr>
+      `;
+
+        state.filteredStats.forEach((stat) => {
+          tableHTML += `<tr>`;
+          columns.forEach((col) => {
+            if (skip_columns.includes(col)) {
+            } else if (col === "match_id") {
+              tableHTML += `<td><a href="statistics.html?match_id=${
+                stat[col]
+              }">${stat[col] || ""}</a></td>`;
+            } else if (efficiency_columns.includes(col)) {
+              tableHTML += `<td>${stat[col] || "0"}%</td>`;
+            } else {
+              tableHTML += `<td>${stat[col] || ""}</td>`;
+            }
+          });
+          tableHTML += `</tr>`;
+        });
+
+        tableHTML += `
+          </tbody>
+        </table>
+      `;
+
+        container.innerHTML = tableHTML;
+      }
+
+      // Render aggregated statistics summary
+      function renderStatsSummary() {
+        const container = document.getElementById("statsGrid");
+
+        if (state.filteredStats.length === 0) {
+          container.innerHTML =
+            '<div class="no-results">No statistics available for aggregation.</div>';
+          return;
+        }
+
+        // Calculate aggregated statistics
+        const stats = {
+          matchesPlayed: state.filteredStats.length,
+          attackPoints: sumStat("attack_points"),
+          blockPoints: sumStat("block_points"),
+          servePoints: sumStat("serve_points"),
+          totalPoints:
+            sumStat("attack_points") +
+            sumStat("block_points") +
+            sumStat("serve_points"),
+          attackEfficiency: averageStat("attack_efficiency"),
+          blockEfficiency: averageStat("block_efficiency"),
+          serveEfficiency: averageStat("serve_efficiency"),
+          receptionPositive: averageStat("reception_positive_%"),
+          receptionPerfect: averageStat("reception_perfect_%"),
+        };
+
+        let html = `
+        <div class="stat-item">
+          <div>Matches Played</div>
+          <div class="stat-value">${stats.matchesPlayed}</div>
+        </div>
+        <div class="stat-item">
+          <div>Total Points</div>
+          <div class="stat-value">${stats.totalPoints}</div>
+        </div>
+        <div class="stat-item">
+          <div>Attack Points</div>
+          <div class="stat-value">${stats.attackPoints}</div>
+        </div>
+        <div class="stat-item">
+          <div>Block Points</div>
+          <div class="stat-value">${stats.blockPoints}</div>
+        </div>
+        <div class="stat-item">
+          <div>Serve Points</div>
+          <div class="stat-value">${stats.servePoints}</div>
+        </div>
+        <div class="stat-item">
+          <div>Attack Efficiency</div>
+          <div class="stat-value">${stats.attackEfficiency.toFixed(2)}%</div>
+        </div>
+        <div class="stat-item">
+          <div>Block Efficiency</div>
+          <div class="stat-value">${stats.blockEfficiency.toFixed(2)}%</div>
+        </div>
+        <div class="stat-item">
+          <div>Serve Efficiency</div>
+          <div class="stat-value">${stats.serveEfficiency.toFixed(2)}%</div>
+        </div>
+        <div class="stat-item">
+          <div>Reception Positive</div>
+          <div class="stat-value">${stats.receptionPositive.toFixed(2)}%</div>
+        </div>
+        <div class="stat-item">
+          <div>Reception Perfect</div>
+          <div class="stat-value">${stats.receptionPerfect.toFixed(2)}%</div>
+        </div>
+      `;
+
+        container.innerHTML = html;
+      }
+
+      // Helper function to sum numeric statistic
+      function sumStat(statName) {
+        return state.filteredStats.reduce((sum, stat) => {
+          const value = parseFloat(stat[statName] || 0);
+          return sum + (isNaN(value) ? 0 : value);
+        }, 0);
+      }
+
+      // Helper function to calculate average of statistic
+      function averageStat(statName) {
+        switch (statName) {
+          case "attack_efficiency":
+            return (100 * sumStat("attack_points")) / sumStat("attack_total");
+          case "block_efficiency":
+            return (100 * sumStat("block_points")) / sumStat("block_total");
+          case "serve_efficiency":
+            return (100 * sumStat("serve_points")) / sumStat("serve_total");
+          case "reception_positive_%":
+            return (
+              (100 * sumStat("reception_positive")) / sumStat("reception_total")
+            );
+          case "reception_perfect_%":
+            return (
+              (100 * sumStat("reception_perfect")) / sumStat("reception_total")
+            );
+          default:
+            return 0;
+        }
+      }
+
+      // Show loading indicator
+      function showLoading(elementId) {
+        document.getElementById(elementId).innerHTML =
+          '<div class="loading">Loading data...</div>';
+      }
+
+      // Show error message
+      function showError(message) {
+        const errorElement = document.getElementById("errorMessage");
+        errorElement.textContent = message;
+        errorElement.style.display = "block";
+      }
+    </script>
+  </body>
+</html>

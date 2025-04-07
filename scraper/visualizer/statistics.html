@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volleyball Statistics Visualizer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2 {
+        color: #333;
+        text-align: center;
+      }
+      .match-info {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border-radius: 4px;
+      }
+      .tabs {
+        display: flex;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+      }
+      .tab {
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        border-bottom: none;
+        border-radius: 4px 4px 0 0;
+        margin-right: 5px;
+      }
+      .tab.active {
+        background-color: #4caf50;
+        color: white;
+        border-color: #4caf50;
+      }
+      .tab-content {
+        display: none;
+      }
+      .tab-content.active {
+        display: block;
+      }
+      .stats-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      .team-stats {
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .team-header {
+        text-align: center;
+        font-weight: bold;
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+        position: sticky;
+        top: 0;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+      .player-row {
+        font-weight: bold;
+      }
+      .sub-row {
+        font-size: 0.9em;
+        color: #666;
+      }
+      .error {
+        color: red;
+        padding: 10px;
+        border: 1px solid red;
+        background-color: #fff8f8;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      .loading {
+        text-align: center;
+        padding: 20px;
+        font-style: italic;
+        color: #666;
+      }
+      .team-totals {
+        font-weight: bold;
+        background-color: #e6e6e6;
+      }
+      .comparison-bar {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border-radius: 4px;
+      }
+      .comparison-item {
+        text-align: center;
+        flex: 1;
+      }
+      .comparison-label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .comparison-value {
+        font-size: 1.2em;
+      }
+      .back-button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 15px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        width: fit-content;
+      }
+      .back-button:hover {
+        background-color: #45a049;
+      }
+      .no-match {
+        text-align: center;
+        padding: 50px;
+        color: #666;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Volleyball Statistics Visualizer</h1>
+
+      <div id="errorMessage" class="error" style="display: none"></div>
+      <div id="loadingMessage" class="loading">Loading match statistics...</div>
+
+      <div id="matchContent" style="display: none">
+        <div id="matchInfo" class="match-info"></div>
+
+        <div class="tabs">
+          <div class="tab active" data-tab="summary">Summary</div>
+          <div class="tab" data-tab="attack">Attack</div>
+          <div class="tab" data-tab="service">Service</div>
+          <div class="tab" data-tab="block">Block & Set</div>
+          <div class="tab" data-tab="reception">Reception & Dig</div>
+        </div>
+
+        <div id="summaryTab" class="tab-content active">
+          <div class="comparison-bar" id="summaryComparison"></div>
+          <div class="stats-container">
+            <div class="team-stats" id="team1Summary">
+              <div class="team-header" id="team1NameSummary"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>PlayerID</th>
+                    <th>Role</th>
+                    <th>Attack Points</th>
+                    <th>Serve Points</th>
+                    <th>Block Points</th>
+                  </tr>
+                </thead>
+                <tbody id="team1SummaryBody"></tbody>
+              </table>
+            </div>
+            <div class="team-stats" id="team2Summary">
+              <div class="team-header" id="team2NameSummary"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>PlayerID</th>
+                    <th>Role</th>
+                    <th>Attack Points</th>
+                    <th>Serve Points</th>
+                    <th>Block Points</th>
+                  </tr>
+                </thead>
+                <tbody id="team2SummaryBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div id="attackTab" class="tab-content">
+          <div class="comparison-bar" id="attackComparison"></div>
+          <div class="stats-container">
+            <div class="team-stats" id="team1Attack">
+              <div class="team-header" id="team1Name"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>Points</th>
+                    <th>Errors</th>
+                    <th>Attempts</th>
+                    <th>Blocked</th>
+                    <th>Total</th>
+                    <th>Efficiency %</th>
+                  </tr>
+                </thead>
+                <tbody id="team1AttackBody"></tbody>
+              </table>
+            </div>
+            <div class="team-stats" id="team2Attack">
+              <div class="team-header" id="team2Name"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>Points</th>
+                    <th>Errors</th>
+                    <th>Attempts</th>
+                    <th>Blocked</th>
+                    <th>Total</th>
+                    <th>Efficiency %</th>
+                  </tr>
+                </thead>
+                <tbody id="team2AttackBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div id="serviceTab" class="tab-content">
+          <div class="comparison-bar" id="serviceComparison"></div>
+          <div class="stats-container">
+            <div class="team-stats" id="team1Service">
+              <div class="team-header" id="team1NameService"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>Points</th>
+                    <th>Errors</th>
+                    <th>Attempts</th>
+                    <th>Total</th>
+                    <th>Efficiency %</th>
+                  </tr>
+                </thead>
+                <tbody id="team1ServiceBody"></tbody>
+              </table>
+            </div>
+            <div class="team-stats" id="team2Service">
+              <div class="team-header" id="team2NameService"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>Points</th>
+                    <th>Errors</th>
+                    <th>Attempts</th>
+                    <th>Total</th>
+                    <th>Efficiency %</th>
+                  </tr>
+                </thead>
+                <tbody id="team2ServiceBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div id="blockTab" class="tab-content">
+          <div class="comparison-bar" id="blockComparison"></div>
+          <div class="stats-container">
+            <div class="team-stats" id="team1Block">
+              <div class="team-header" id="team1NameBlock"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>Points</th>
+                    <th>Errors</th>
+                    <th>Touches</th>
+                    <th>Total</th>
+                    <th>Sets</th>
+                    <th>Efficiency %</th>
+                  </tr>
+                </thead>
+                <tbody id="team1BlockBody"></tbody>
+              </table>
+            </div>
+            <div class="team-stats" id="team2Block">
+              <div class="team-header" id="team2NameBlock"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>Points</th>
+                    <th>Errors</th>
+                    <th>Touches</th>
+                    <th>Total</th>
+                    <th>Sets</th>
+                    <th>Efficiency %</th>
+                  </tr>
+                </thead>
+                <tbody id="team2BlockBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div id="receptionTab" class="tab-content">
+          <div class="comparison-bar" id="receptionComparison"></div>
+          <div class="stats-container">
+            <div class="team-stats" id="team1Reception">
+              <div class="team-header" id="team1NameReception"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>Perfect</th>
+                    <th>Positive</th>
+                    <th>Errors</th>
+                    <th>Attempts</th>
+                    <th>Total</th>
+                    <th>Digs</th>
+                    <th>Efficiency %</th>
+                  </tr>
+                </thead>
+                <tbody id="team1ReceptionBody"></tbody>
+              </table>
+            </div>
+            <div class="team-stats" id="team2Reception">
+              <div class="team-header" id="team2NameReception"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Num</th>
+                    <th>Player</th>
+                    <th>Perfect</th>
+                    <th>Positive</th>
+                    <th>Errors</th>
+                    <th>Attempts</th>
+                    <th>Total</th>
+                    <th>Digs</th>
+                    <th>Efficiency %</th>
+                  </tr>
+                </thead>
+                <tbody id="team2ReceptionBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <a href="index.html" class="back-button">Back to Match List</a>
+      </div>
+
+      <div id="noMatch" class="no-match" style="display: none">
+        <p>
+          No match found with the provided ID. Please check the match ID and try
+          again.
+        </p>
+        <a href="index.html" class="back-button">Back to Match List</a>
+      </div>
+    </div>
+
+    <script>
+      // State management
+      const state = {
+        matchData: null,
+        team1Data: [],
+        team2Data: [],
+        team1Name: "",
+        team2Name: "",
+      };
+
+      // Initialize the application
+      document.addEventListener("DOMContentLoaded", function () {
+        setupTabs();
+        loadMatchData();
+      });
+
+      // Set up tab switching
+      function setupTabs() {
+        const tabs = document.querySelectorAll(".tab");
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", function () {
+            // Remove active class from all tabs and contents
+            document
+              .querySelectorAll(".tab")
+              .forEach((t) => t.classList.remove("active"));
+            document
+              .querySelectorAll(".tab-content")
+              .forEach((c) => c.classList.remove("active"));
+
+            // Add active class to clicked tab
+            this.classList.add("active");
+
+            // Show corresponding content
+            const tabId = this.getAttribute("data-tab");
+            document.getElementById(`${tabId}Tab`).classList.add("active");
+          });
+        });
+      }
+
+      // Load match data based on URL parameter
+      function loadMatchData() {
+        const params = new URLSearchParams(window.location.search);
+        const matchId = params.get("match_id");
+
+        if (!matchId) {
+          showNoMatch();
+          return;
+        }
+
+        fetch("statistics.csv")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(
+                "Failed to load statistics.csv. Make sure the file exists in the same directory as this HTML file."
+              );
+            }
+            return response.text();
+          })
+          .then((csvData) => {
+            processStatistics(csvData, matchId);
+            return fetch("matches.csv");
+          })
+          .then((response) => {
+            return response.text();
+          })
+          .then((matchData) => {
+            processMatchData(matchData, matchId);
+          })
+          .catch((error) => {
+            showError(error.message);
+          });
+
+        // fetch("matches.csv")
+        //   .then((response) => {
+        //     if (!response.ok) {
+        //       throw new Error(
+        //         "Failed to load statistics.csv. Make sure the file exists in the same directory as this HTML file."
+        //       );
+        //     }
+        //     return response.text();
+        //   })
+        //   .then((matchData) => {
+        //     processMatchData(matchData, matchId);
+        //   })
+        //   .catch((error) => {
+        //     showError(error.message);
+        //   });
+      }
+
+      function processMatchData(matchData, matchId) {
+        const lines = matchData.trim().split("\n");
+        const headers = lines[0].split(",").map((header) => header.trim());
+
+        // Parse all data
+        const allData = lines.slice(1).map((line) => {
+          const values = line.split(",").map((value) => value.trim());
+          const record = {};
+
+          headers.forEach((header, index) => {
+            record[header] = values[index];
+          });
+
+          return record;
+        });
+
+        // Filter for the specific match
+        const exactData = allData.filter(
+          (record) => record.match_id === matchId
+        )[0];
+
+        const totalSets =
+          parseInt(exactData.scoreA) + parseInt(exactData.scoreB);
+        const scores = [];
+        for (let i = 1; i <= totalSets; i++) {
+          scores.push(`${exactData[`setA_${i}`]}-${exactData[`setB_${i}`]}`);
+        }
+
+        document.getElementById("matchInfo").innerHTML += `
+        <h2>${exactData.scoreA} : ${exactData.scoreB}</h2>
+        <h4>${scores.join(",  ")}</h3>
+        `;
+      }
+
+      // Process CSV data and filter for the specific match
+      function processStatistics(csvData, matchId) {
+        const lines = csvData.trim().split("\n");
+        const headers = lines[0].split(",").map((header) => header.trim());
+
+        // Parse all data
+        const allData = lines.slice(1).map((line) => {
+          const values = line.split(",").map((value) => value.trim());
+          const record = {};
+
+          headers.forEach((header, index) => {
+            record[header] = values[index];
+          });
+
+          return record;
+        });
+
+        // Filter for the specific match
+        const matchData = allData.filter(
+          (record) => record.match_id === matchId
+        );
+
+        if (matchData.length === 0) {
+          showNoMatch();
+          return;
+        }
+
+        // Group by team
+        const teams = [...new Set(matchData.map((record) => record.team))];
+
+        if (teams.length < 2) {
+          showError("Match data incomplete: fewer than 2 teams found.");
+          return;
+        }
+
+        state.team1Name = teams[0];
+        state.team2Name = teams[1];
+        state.team1Data = matchData.filter(
+          (record) => record.team === teams[0]
+        );
+        state.team2Data = matchData.filter(
+          (record) => record.team === teams[1]
+        );
+
+        // Sort players by starter role first, then by attack points in descending order
+        state.team1Data.sort((a, b) => {
+          if (a.starter_role !== "U" && b.starter_role === "U") return -1;
+          if (a.starter_role === "U" && b.starter_role !== "U") return 1;
+          return (
+            parseInt(b.attack_points || 0) - parseInt(a.attack_points || 0)
+          );
+        });
+
+        state.team2Data.sort((a, b) => {
+          if (a.starter_role !== "U" && b.starter_role === "U") return -1;
+          if (a.starter_role === "U" && b.starter_role !== "U") return 1;
+          return (
+            parseInt(b.attack_points || 0) - parseInt(a.attack_points || 0)
+          );
+        });
+
+        // Extract league and match info
+        const league = matchData[0].league;
+
+        // Display match info
+        document.getElementById("matchInfo").innerHTML = `
+        <h1>${league} - Match ID: ${matchId}</h2>
+        <h2>${state.team1Name} vs ${state.team2Name}</h3>
+      `;
+
+        // Populate team names
+        document.getElementById("team1Name").textContent = state.team1Name;
+        document.getElementById("team2Name").textContent = state.team2Name;
+        document.getElementById("team1NameService").textContent =
+          state.team1Name;
+        document.getElementById("team2NameService").textContent =
+          state.team2Name;
+        document.getElementById("team1NameBlock").textContent = state.team1Name;
+        document.getElementById("team2NameBlock").textContent = state.team2Name;
+        document.getElementById("team1NameReception").textContent =
+          state.team1Name;
+        document.getElementById("team2NameReception").textContent =
+          state.team2Name;
+        document.getElementById("team1NameSummary").textContent =
+          state.team1Name;
+        document.getElementById("team2NameSummary").textContent =
+          state.team2Name;
+
+        renderAttackStats();
+        renderServiceStats();
+        renderBlockStats();
+        renderReceptionStats();
+        renderSummaryStats();
+
+        // Show content
+        document.getElementById("loadingMessage").style.display = "none";
+        document.getElementById("matchContent").style.display = "block";
+      }
+
+      // Render attack statistics for both teams
+      function renderAttackStats() {
+        renderTeamAttackStats(state.team1Data, "team1AttackBody");
+        renderTeamAttackStats(state.team2Data, "team2AttackBody");
+        renderAttackComparison();
+      }
+
+      // Render attack statistics for a single team
+      function renderTeamAttackStats(teamData, targetElementId) {
+        const tableBody = document.getElementById(targetElementId);
+        let tableHTML = "";
+
+        // Calculate team totals
+        let totalPoints = 0;
+        let totalErrors = 0;
+        let totalAttempts = 0;
+        let totalBlocked = 0;
+        let totalAll = 0;
+
+        teamData.forEach((player) => {
+          const points = parseInt(player.attack_points || 0);
+          const errors = parseInt(player.attack_errors || 0);
+          const attempts = parseInt(player.attack_attempts || 0);
+          const blocked = parseInt(player.attack_blocked || 0);
+          const total = parseInt(player.attack_total || 0);
+          const efficiency = parseFloat(player.attack_efficiency || 0);
+
+          totalPoints += points;
+          totalErrors += errors;
+          totalAttempts += attempts;
+          totalBlocked += blocked;
+          totalAll += total;
+
+          tableHTML += `
+          <tr class="${player.starter_role !== "U" ? "player-row" : "sub-row"}">
+            <td>${player.jersey_number}</td>
+            <td><a href="players.html?player_id=${player.player_id}">${
+            player.player_name
+          } ${
+            player.starter_role !== "U" ? "(" + player.starter_role + ")" : ""
+          }</a></td>
+            <td>${points}</td>
+            <td>${errors}</td>
+            <td>${attempts}</td>
+            <td>${blocked}</td>
+            <td>${total}</td>
+            <td>${efficiency}%</td>
+          </tr>
+        `;
+        });
+
+        // Calculate team efficiency
+        const teamEfficiency =
+          totalAll > 0
+            ? (
+                ((totalPoints - totalErrors - totalBlocked) / totalAll) *
+                100
+              ).toFixed(1)
+            : 0;
+
+        // Add team totals row
+        tableHTML += `
+        <tr class="team-totals">
+          <td></td>
+          <td>TOTALS</td>
+          <td>${totalPoints}</td>
+          <td>${totalErrors}</td>
+          <td>${totalAttempts}</td>
+          <td>${totalBlocked}</td>
+          <td>${totalAll}</td>
+          <td>${teamEfficiency}%</td>
+        </tr>
+      `;
+
+        tableBody.innerHTML = tableHTML;
+      }
+
+      // Render service statistics for both teams
+      function renderServiceStats() {
+        renderTeamServiceStats(state.team1Data, "team1ServiceBody");
+        renderTeamServiceStats(state.team2Data, "team2ServiceBody");
+        renderServiceComparison();
+      }
+
+      // Render service statistics for a single team
+      function renderTeamServiceStats(teamData, targetElementId) {
+        const tableBody = document.getElementById(targetElementId);
+        let tableHTML = "";
+
+        // Calculate team totals
+        let totalPoints = 0;
+        let totalErrors = 0;
+        let totalAttempts = 0;
+        let totalAll = 0;
+
+        teamData.forEach((player) => {
+          const points = parseInt(player.serve_points || 0);
+          const errors = parseInt(player.serve_errors || 0);
+          const attempts = parseInt(player.serve_attempts || 0);
+          const total = parseInt(player.serve_total || 0);
+          const efficiency = parseFloat(player.serve_efficiency || 0);
+
+          totalPoints += points;
+          totalErrors += errors;
+          totalAttempts += attempts;
+          totalAll += total;
+
+          tableHTML += `
+          <tr class="${player.starter_role !== "U" ? "player-row" : "sub-row"}">
+            <td>${player.jersey_number}</td>
+            <td><a href="players.html?player_id=${player.player_id}">${
+            player.player_name
+          } ${
+            player.starter_role !== "U" ? "(" + player.starter_role + ")" : ""
+          }</a></td>
+            <td>${points}</td>
+            <td>${errors}</td>
+            <td>${attempts}</td>
+            <td>${total}</td>
+            <td>${efficiency}%</td>
+          </tr>
+        `;
+        });
+
+        // Calculate team efficiency
+        const teamEfficiency =
+          totalAttempts > 0
+            ? (((totalPoints - totalErrors) / totalAll) * 100).toFixed(1)
+            : 0;
+
+        // Add team totals row
+        tableHTML += `
+        <tr class="team-totals">
+          <td></td>
+          <td>TOTALS</td>
+          <td>${totalPoints}</td>
+          <td>${totalErrors}</td>
+          <td>${totalAttempts}</td>
+          <td>${totalAll}</td>
+          <td>${teamEfficiency}%</td>
+        </tr>
+      `;
+
+        tableBody.innerHTML = tableHTML;
+      }
+
+      // Render attack comparison bar
+      function renderAttackComparison() {
+        const team1Stats = calculateTeamAttackStats(state.team1Data);
+        const team2Stats = calculateTeamAttackStats(state.team2Data);
+
+        document.getElementById("attackComparison").innerHTML = `
+        <div class="comparison-item">
+          <div class="comparison-label">Attack Points</div>
+          <div class="comparison-value">${team1Stats.points}</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Attack Efficiency</div>
+          <div class="comparison-value">${team1Stats.efficiency}%</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">VS</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Attack Efficiency</div>
+          <div class="comparison-value">${team2Stats.efficiency}%</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Attack Points</div>
+          <div class="comparison-value">${team2Stats.points}</div>
+        </div>
+      `;
+      }
+
+      // Render service comparison bar
+      function renderServiceComparison() {
+        const team1Stats = calculateTeamServiceStats(state.team1Data);
+        const team2Stats = calculateTeamServiceStats(state.team2Data);
+
+        document.getElementById("serviceComparison").innerHTML = `
+        <div class="comparison-item">
+          <div class="comparison-label">Service Points</div>
+          <div class="comparison-value">${team1Stats.points}</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Service Efficiency</div>
+          <div class="comparison-value">${team1Stats.efficiency}%</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">VS</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Service Efficiency</div>
+          <div class="comparison-value">${team2Stats.efficiency}%</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Service Points</div>
+          <div class="comparison-value">${team2Stats.points}</div>
+        </div>
+      `;
+      }
+
+      // Calculate team attack statistics
+      function calculateTeamAttackStats(teamData) {
+        let totalPoints = 0;
+        let totalErrors = 0;
+        let totalAttempts = 0;
+        let totalBlocked = 0;
+        let totalAll = 0;
+
+        teamData.forEach((player) => {
+          totalPoints += parseInt(player.attack_points || 0);
+          totalErrors += parseInt(player.attack_errors || 0);
+          totalAttempts += parseInt(player.attack_attempts || 0);
+          totalBlocked += parseInt(player.attack_blocked || 0);
+          totalAll += parseInt(player.attack_total || 0);
+        });
+
+        const efficiency =
+          totalAttempts > 0
+            ? (((totalPoints - totalErrors) / totalAll) * 100).toFixed(1)
+            : 0;
+
+        return {
+          points: totalPoints,
+          efficiency: efficiency,
+        };
+      }
+
+      // Calculate team service statistics
+      function calculateTeamServiceStats(teamData) {
+        let totalPoints = 0;
+        let totalErrors = 0;
+        let totalAttempts = 0;
+        let totalAll = 0;
+
+        teamData.forEach((player) => {
+          totalPoints += parseInt(player.serve_points || 0);
+          totalErrors += parseInt(player.serve_errors || 0);
+          totalAttempts += parseInt(player.serve_attempts || 0);
+          totalAll += parseInt(player.serve_total || 0);
+        });
+
+        const efficiency =
+          totalAttempts > 0
+            ? (((totalPoints - totalErrors) / totalAll) * 100).toFixed(1)
+            : 0;
+
+        return {
+          points: totalPoints,
+          efficiency: efficiency,
+        };
+      }
+
+      function renderBlockStats() {
+        renderTeamBlockStats(state.team1Data, "team1BlockBody");
+        renderTeamBlockStats(state.team2Data, "team2BlockBody");
+        renderBlockComparison();
+      }
+
+      function renderTeamBlockStats(teamData, targetElementId) {
+        const tableBody = document.getElementById(targetElementId);
+        let tableHTML = "";
+
+        // Calculate team totals
+        let totalPoints = 0;
+        let totalErrors = 0;
+        let totalAttempts = 0;
+        let totalAll = 0;
+        let totalSet = 0;
+
+        teamData.forEach((player) => {
+          const points = parseInt(player.block_points || 0);
+          const errors = parseInt(player.block_errors || 0);
+          const touches = parseInt(player.block_touches || 0);
+          const total = parseInt(player.block_total || 0);
+          const sets = parseInt(player.set_total || 0);
+          const efficiency = parseFloat(player.block_efficiency || 0);
+
+          totalPoints += points;
+          totalErrors += errors;
+          totalAttempts += touches;
+          totalAll += total;
+          totalSet += sets;
+
+          tableHTML += `
+          <tr class="${player.starter_role !== "U" ? "player-row" : "sub-row"}">
+            <td>${player.jersey_number}</td>
+            <td><a href="players.html?player_id=${player.player_id}">${
+            player.player_name
+          } ${
+            player.starter_role !== "U" ? "(" + player.starter_role + ")" : ""
+          }</a></td>
+            <td>${points}</td>
+            <td>${errors}</td>
+            <td>${touches}</td>
+            <td>${total}</td>
+            <td>${sets}</td>
+            <td>${efficiency}%</td>
+          </tr>
+        `;
+        });
+
+        // Calculate team efficiency
+        const teamEfficiency =
+          totalAll > 0
+            ? (((totalPoints - totalErrors) / totalAll) * 100).toFixed(1)
+            : 0;
+
+        // Add team totals row
+        tableHTML += `
+        <tr class="team-totals">
+          <td></td>
+          <td>TOTALS</td>
+          <td>${totalPoints}</td>
+          <td>${totalErrors}</td>
+          <td>${totalAttempts}</td>
+          <td>${totalAll}</td>
+          <td>${totalSet}</td>
+          <td>${teamEfficiency}%</td>
+        </tr>
+      `;
+
+        tableBody.innerHTML = tableHTML;
+      }
+
+      function renderBlockComparison() {
+        const team1Stats = calculateTeamBlockStats(state.team1Data);
+        const team2Stats = calculateTeamBlockStats(state.team2Data);
+
+        document.getElementById("blockComparison").innerHTML = `
+        <div class="comparison-item">
+          <div class="comparison-label">Block Points</div>
+          <div class="comparison-value">${team1Stats.points}</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Block Efficiency</div>
+          <div class="comparison-value">${team1Stats.efficiency}%</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">VS</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Block Efficiency</div>
+          <div class="comparison-value">${team2Stats.efficiency}%</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Block Points</div>
+          <div class="comparison-value">${team2Stats.points}</div>
+        </div>
+      `;
+      }
+
+      function calculateTeamBlockStats(teamData) {
+        let totalPoints = 0;
+        let totalErrors = 0;
+        let totalAttempts = 0;
+        let totalAll = 0;
+        let totalSet = 0;
+
+        teamData.forEach((player) => {
+          totalPoints += parseInt(player.block_points || 0);
+          totalErrors += parseInt(player.block_errors || 0);
+          totalAttempts += parseInt(player.block_touches || 0);
+          totalAll += parseInt(player.block_total || 0);
+          totalSet += parseInt(player.set_total || 0);
+        });
+
+        const efficiency =
+          totalAttempts > 0
+            ? (((totalPoints - totalErrors) / totalAll) * 100).toFixed(1)
+            : 0;
+
+        return {
+          points: totalPoints,
+          efficiency: efficiency,
+        };
+      }
+
+      function renderReceptionStats() {
+        renderTeamReceptionStats(state.team1Data, "team1ReceptionBody");
+        renderTeamReceptionStats(state.team2Data, "team2ReceptionBody");
+        renderReceptionComparison();
+      }
+
+      function renderTeamReceptionStats(teamData, targetElementId) {
+        const tableBody = document.getElementById(targetElementId);
+        let tableHTML = "";
+
+        // Calculate team totals
+        let totalPerfect = 0;
+        let totalPositive = 0;
+        let totalErrors = 0;
+        let totalAttempts = 0;
+        let totalAll = 0;
+        let totalDig = 0;
+
+        teamData.forEach((player) => {
+          const perfect = parseInt(player.reception_perfect || 0);
+          const positive = parseInt(player.reception_positive || 0);
+          const errors = parseInt(player.reception_errors || 0);
+          const attempts = parseInt(player.reception_attempts || 0);
+          const total = parseInt(player.reception_total || 0);
+          const dig = parseInt(player.dig_total || 0);
+          const efficiency = parseFloat(player.reception_efficiency || 0);
+
+          totalPerfect += perfect;
+          totalPositive += positive;
+          totalErrors += errors;
+          totalAttempts += attempts;
+          totalAll += total;
+          totalDig += dig;
+
+          tableHTML += `
+          <tr class="${player.starter_role !== "U" ? "player-row" : "sub-row"}">
+            <td>${player.jersey_number}</td>
+            <td><a href="players.html?player_id=${player.player_id}">${
+            player.player_name
+          } ${
+            player.starter_role !== "U" ? "(" + player.starter_role + ")" : ""
+          }</a></td>
+            <td>${perfect}</td>
+            <td>${positive}</td>
+            <td>${errors}</td>
+            <td>${attempts}</td>
+            <td>${total}</td>
+            <td>${dig}</td>
+            <td>${efficiency}%</td>
+          </tr>
+        `;
+        });
+
+        // Calculate team efficiency
+        const teamEfficiency =
+          totalAll > 0
+            ? (((totalPerfect - totalErrors) / totalAll) * 100).toFixed(1)
+            : 0;
+
+        // Add team totals row
+        tableHTML += `
+        <tr class="team-totals">
+          <td></td>
+          <td>TOTALS</td>
+          <td>${totalPerfect}</td>
+          <td>${totalPositive}</td>
+          <td>${totalErrors}</td>
+          <td>${totalAttempts}</td>
+          <td>${totalAll}</td>
+          <td>${totalDig}</td>
+          <td>${teamEfficiency}%</td>
+        </tr>
+      `;
+
+        tableBody.innerHTML = tableHTML;
+      }
+
+      function renderReceptionComparison() {
+        const team1Stats = calculateTeamReceptionStats(state.team1Data);
+        const team2Stats = calculateTeamReceptionStats(state.team2Data);
+
+        document.getElementById("receptionComparison").innerHTML = `
+        <div class="comparison-item">
+          <div class="comparison-label">Reception Perfect</div>
+          <div class="comparison-value">${team1Stats.points}</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Reception Efficiency</div>
+          <div class="comparison-value">${team1Stats.efficiency}%</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">VS</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Reception Efficiency</div>
+          <div class="comparison-value">${team2Stats.efficiency}%</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Reception Perfect</div>
+          <div class="comparison-value">${team2Stats.points}</div>
+        </div>
+      `;
+      }
+
+      function calculateTeamReceptionStats(teamData) {
+        let totalPerfect = 0;
+        let totalPositive = 0;
+        let totalErrors = 0;
+        let totalAttempts = 0;
+        let totalAll = 0;
+        let totalDig = 0;
+
+        teamData.forEach((player) => {
+          totalPerfect += parseInt(player.reception_perfect || 0);
+          totalPositive += parseInt(player.reception_positive || 0);
+          totalErrors += parseInt(player.reception_errors || 0);
+          totalAttempts += parseInt(player.reception_attempts || 0);
+          totalAll += parseInt(player.reception_total || 0);
+          totalDig += parseInt(player.dig_total || 0);
+        });
+
+        const efficiency =
+          totalAttempts > 0
+            ? (((totalPerfect - totalErrors) / totalAll) * 100).toFixed(1)
+            : 0;
+
+        return {
+          points: totalPerfect,
+          efficiency: efficiency,
+        };
+      }
+
+      function renderSummaryStats() {
+        renderTeamSummaryStats(state.team1Data, "team1SummaryBody");
+        renderTeamSummaryStats(state.team2Data, "team2SummaryBody");
+        renderSummaryComparison();
+      }
+
+      function renderTeamSummaryStats(teamData, targetElementId) {
+        const tableBody = document.getElementById(targetElementId);
+        let tableHTML = "";
+
+        // Calculate team totals
+        let totalAttack = 0;
+        let totalServe = 0;
+        let totalBlock = 0;
+
+        teamData.forEach((player) => {
+          const attack = parseInt(player.attack_points || 0);
+          const serve = parseInt(player.serve_points || 0);
+          const block = parseInt(player.block_points || 0);
+
+          totalAttack += attack;
+          totalServe += serve;
+          totalBlock += block;
+
+          tableHTML += `
+          <tr class="${player.starter_role !== "U" ? "player-row" : "sub-row"}">
+            <td>${player.jersey_number}</td>
+            <td><a href="players.html?player_id=${player.player_id}">${
+            player.player_name
+          } ${
+            player.starter_role !== "U" ? "(" + player.starter_role + ")" : ""
+          }</a></td>
+            <td>${player.player_id}</td>
+            <td>${player.volleybox_role}</td>
+            <td>${attack}</td>
+            <td>${serve}</td>
+            <td>${block}</td>
+          </tr>
+        `;
+        });
+
+        // Add team totals row
+        tableHTML += `
+        <tr class="team-totals">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>TOTALS</td>
+          <td>${totalAttack}</td>
+          <td>${totalServe}</td>
+          <td>${totalBlock}</td>
+        </tr>
+      `;
+
+        tableBody.innerHTML = tableHTML;
+      }
+
+      function renderSummaryComparison() {
+        const team1Stats = calculateTeamSummaryStats(state.team1Data);
+        const team2Stats = calculateTeamSummaryStats(state.team2Data);
+
+        document.getElementById("summaryComparison").innerHTML = `
+        <div class="comparison-item">
+          <div class="comparison-label">Attack Points</div>
+          <div class="comparison-value">${team1Stats.attacks}</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Serve Points</div>
+          <div class="comparison-value">${team1Stats.serves}</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Block Points</div>
+          <div class="comparison-value">${team1Stats.blocks}</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">VS</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Attack Points</div>
+          <div class="comparison-value">${team2Stats.attacks}</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Serve Points</div>
+          <div class="comparison-value">${team2Stats.serves}</div>
+        </div>
+        <div class="comparison-item">
+          <div class="comparison-label">Block Points</div>
+          <div class="comparison-value">${team2Stats.blocks}</div>
+        </div>
+      `;
+      }
+
+      function calculateTeamSummaryStats(teamData) {
+        let totalAttacks = 0;
+        let totalServes = 0;
+        let totalBlocks = 0;
+
+        teamData.forEach((player) => {
+          totalAttacks += parseInt(player.attack_points || 0);
+          totalServes += parseInt(player.serve_points || 0);
+          totalBlocks += parseInt(player.block_points || 0);
+        });
+
+        return {
+          attacks: totalAttacks,
+          serves: totalServes,
+          blocks: totalBlocks,
+        };
+      }
+
+      // Show error message
+      function showError(message) {
+        const errorElement = document.getElementById("errorMessage");
+        errorElement.textContent = message;
+        errorElement.style.display = "block";
+        document.getElementById("loadingMessage").style.display = "none";
+      }
+
+      // Show no match found message
+      function showNoMatch() {
+        document.getElementById("loadingMessage").style.display = "none";
+        document.getElementById("noMatch").style.display = "block";
+      }
+    </script>
+  </body>
+</html>

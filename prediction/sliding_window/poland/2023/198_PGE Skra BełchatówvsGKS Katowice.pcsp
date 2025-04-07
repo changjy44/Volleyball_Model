@@ -1,0 +1,189 @@
+
+#define WIN_POINTS 25;
+#define WIN_POINTS_5 15;
+
+#define SERVE_INDEX 1;
+#define ATTACK_INDEX 0;
+
+#define OH1 0;
+#define OH2 1;
+#define MB1 2;
+#define MB2 3;
+#define SETTER 4;
+#define OPPOSITE 5;
+
+#define SCORE 0;
+#define ERROR 1;
+#define RALLY 2;
+
+var DEFAULT_POSITION[6][6] = [
+0, 2, 4, 1, 3, 5,
+5, 0, 2, 4, 1, 3,
+3, 5, 0, 2, 4, 1,
+1, 3, 5, 0, 2, 4,
+4, 1, 3, 5, 0, 2,
+2, 4, 1, 3, 5, 0
+];
+var WINNING_SCORE = [5, 25, 25, 25, 15];
+
+// OH1, OH2, MB1, MB2, S, O
+// AK, AE, AS, SA, SE, SS
+var ratesAll[2][6][2][3] = [
+657,247,516,70,156,608,
+584,206,394,24,160,362,
+389,58,158,18,93,692,
+490,80,225,127,211,747,
+20,2,20,14,58,830,
+753,279,420,93,182,646,
+600,162,422,50,188,350,
+428,132,442,48,116,466,
+244,44,128,18,36,584,
+164,30,72,18,90,300,
+58,8,30,10,60,600,
+566,214,372,46,176,360
+
+];
+
+var setterRates[2][3] = [
+3123,1476,1737,2912,876,1732
+];
+
+var positionsAll[2][6] = [
+0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0
+];
+
+var currentOH = [
+0, 0
+];
+
+var currentMB = [
+1, 1
+];
+
+var scoreAll = [0, 0];
+var setAll = [0, 0];
+
+var service_team = 0;
+
+// Utility Functions
+IncrementScore(team) = Increase{
+	scoreAll[team] = scoreAll[team] + 1
+} -> Skip;
+
+IncrementSet(team) = IncreaseSet {
+	setAll[team] = setAll[team] + 1
+} -> Skip;
+
+SetPlayerPositions(team, rotation) = SetPosition{
+	var i = 0;
+    while (i < 6) {
+		positionsAll[team][i] = DEFAULT_POSITION[rotation][i];
+		i = i + 1;
+	}
+} -> Skip;
+
+ResetScore = SetScore {
+	scoreAll[0] = 0;
+	scoreAll[1] = 0;
+} -> Skip;
+
+Rotate(team) = rotate{
+	var i = 0;
+	var prev = positionsAll[team][5];
+	
+	while (i < 6) {
+		var temp = positionsAll[team][i];
+		positionsAll[team][i] = prev;
+		prev = temp;
+    	i = i + 1;
+  }
+} -> Skip;
+
+CheckWin(set, team) = ifa (scoreAll[team] == WINNING_SCORE[set]) { 
+	IncrementSet(team); 
+	ifa (setAll[team] == 1) {
+		Skip
+	}
+	else {
+		Game(set + 1, 0, 0); Skip
+	}
+} 
+// Game does not score, next point
+else {
+	ifa (team == service_team) { 
+		Serve(set, team); Skip 
+	}
+	else {
+		Rotate(team); Serve(set, team); Skip
+	}
+};
+
+// Play Functions
+SpikePlayer(set, team, player) = pcase {
+	ratesAll[team][player][ATTACK_INDEX][SCORE]: IncrementScore(team); CheckWin(set, team)
+	ratesAll[team][player][ATTACK_INDEX][ERROR]: IncrementScore(1 - team); CheckWin(set, 1 - team)
+	ratesAll[team][player][ATTACK_INDEX][RALLY]: Setter(set, 1 - team)
+};
+
+OutsideSpike(set, team) = SetOH {
+	var i = 0;
+    while (i < 3) {
+    	var player = positionsAll[team][i];
+    	if ((player == OH1) || (player == OH2)) {
+    		currentOH[team] = player;
+    	}
+		i = i + 1;
+	}
+} -> SpikePlayer(set, team, currentOH[team]);
+
+MiddleSpike(set, team) = SetMB {
+	var i = 0;
+    while (i < 3) {
+    	var player = positionsAll[team][i];
+    	if ((player == MB1) || (player == MB2)) {
+    		currentMB[team] = player;
+    	}
+		i = i + 1;
+	}
+} -> SpikePlayer(set, team, currentMB[team]);
+
+OppositeSpike(set, team) = SpikePlayer(set, team, OPPOSITE);
+
+
+Setter(set, team) = pcase {
+	setterRates[team][0]: OutsideSpike(set, team)
+	setterRates[team][1]: MiddleSpike(set, team)
+	setterRates[team][2]: OppositeSpike(set, team)
+};
+
+ServicePlayer(set, team, player) = pcase {
+	ratesAll[team][player][SERVE_INDEX][SCORE]: IncrementScore(team); CheckWin(set, team)
+	ratesAll[team][player][SERVE_INDEX][ERROR]: IncrementScore(1 - team); CheckWin(set, 1 - team)
+	ratesAll[team][player][SERVE_INDEX][RALLY]: Setter(set, 1 - team)
+};
+
+Serve(set, team) = SetServiceTeam {service_team = team;} -> ServicePlayer(set, team, positionsAll[team][3]);
+
+
+Game(set, rotation, service) = SetPlayerPositions(0, rotation); SetPlayerPositions(1, rotation); ResetScore; Serve(set, (set % 2) + service);
+
+BeginMatch = Game(0, 0, 0);
+
+AllRotations = pcase {
+1: Game(0, 0, 0)
+1: Game(0, 0, 1)
+1: Game(0, 1, 0)
+1: Game(0, 1, 1)
+1: Game(0, 2, 0)
+1: Game(0, 2, 1)
+1: Game(0, 3, 0)
+1: Game(0, 3, 1)
+1: Game(0, 4, 0)
+1: Game(0, 4, 1)
+1: Game(0, 5, 0)
+1: Game(0, 5, 1)
+};
+
+#define goal setAll[0] == 1;
+#assert AllRotations reaches goal with prob;
